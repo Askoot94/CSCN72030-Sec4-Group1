@@ -9,3 +9,19 @@ C:\Users\EthanNguyen\source\repos\[Project III]GUI\[Project III]GUI\obj\Debug\[P
 C:\Users\EthanNguyen\source\repos\[Project III]GUI\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.CoreCompileInputs.cache
 C:\Users\EthanNguyen\source\repos\[Project III]GUI\[Project III]GUI\obj\Debug\[Project III]GUI.exe
 C:\Users\EthanNguyen\source\repos\[Project III]GUI\[Project III]GUI\obj\Debug\[Project III]GUI.pdb
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\[Project III]GUI.exe.config
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\[Project III]GUI.exe
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\[Project III]GUI.pdb
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.AssemblyReference.cache
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.LoginPage.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.OrderCart.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.Properties.Resources.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.GenerateResource.cache
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.CoreCompileInputs.cache
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.exe
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.pdb
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.Waiter_s_View.resources
+C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableA1.resources
+C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\Guna.UI2.dll
+C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.CopyComplete

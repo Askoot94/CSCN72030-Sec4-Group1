@@ -16,7 +16,10 @@ namespace _Project_III_GUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            // Application.Run(new TableA1());
+            // Application.Run(new Waiter_s_View());   
+            Application.Run(new LoginPage());   
+            // Application.Run(new OrderCart());
         }
     }
 }
