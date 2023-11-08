@@ -60,5 +60,53 @@ namespace _Project_III_GUI
                 Application.Exit();
             }
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Restaurantname_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click_2(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click_1(object sender, EventArgs e) // Chef label
+        {
+            
+        }
+
+        private void label7_Click_1(object sender, EventArgs e) // Waiter label
+        {
+            DialogResult iOpen;
+            iOpen = MessageBox.Show("Continue as a Waiter?",
+                "Ordering System", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (iOpen == DialogResult.Yes)
+            {
+                Waiter_s_View waiter = new Waiter_s_View();
+                waiter.Show();
+                Visible = false;
+            }
+        }
     }
 }
