@@ -1,0 +1,18 @@
+﻿  Source.cpp
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(18,11): error C2601: 'calcPrice': local function definitions are illegal
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(13,16): message : this line contains a '{' which has not yet been matched
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(22,10): error C2601: 'exporting': local function definitions are illegal
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(13,16): message : this line contains a '{' which has not yet been matched
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(19,16): error C2065: 'price': undeclared identifier
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(19,24): error C2065: 'quantity': undeclared identifier
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(28,37): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(28,72): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(28,115): error C2355: 'this': can only be referenced inside non-static member functions or non-static data member initializers
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(36,5): error C2084: function 'int main(void)' already has a body
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(13,5): message : see previous definition of 'main'
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(39,5): error C2065: 'Item': undeclared identifier
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(39,10): error C2146: syntax error: missing ';' before identifier 'item'
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(39,10): error C3861: 'item': identifier not found
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(42,24): error C2065: 'item': undeclared identifier
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(45,30): error C2065: 'item': undeclared identifier
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\Restaurant Interaction\Backend\Source.cpp(48,9): error C2065: 'item': undeclared identifier

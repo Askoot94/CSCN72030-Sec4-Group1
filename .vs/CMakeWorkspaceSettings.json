@@ -1,0 +1,4 @@
+{
+  "enableCMake": true,
+  "sourceDirectory": "restaurant interaction\\backend\\src"
+}
