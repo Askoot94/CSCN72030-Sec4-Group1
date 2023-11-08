@@ -49,5 +49,16 @@ namespace _Project_III_GUI
             orderCart.Show();
             Visible = false;
         }
+
+        private void label4_Click_1(object sender, EventArgs e) // Exit label
+        {
+            DialogResult iExit;
+            iExit = MessageBox.Show("You want to exit the system",
+                "Ordering System", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (iExit == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
     }
 }
