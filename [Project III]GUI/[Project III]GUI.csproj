@@ -55,6 +55,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chef%27s View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chef%27s View.Designer.cs">
+      <DependentUpon>Chef%27s View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer%27s View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer%27s View.Designer.cs">
+      <DependentUpon>Customer%27s View.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginPage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -75,12 +87,24 @@
     <Compile Include="TableA1.Designer.cs">
       <DependentUpon>TableA1.cs</DependentUpon>
     </Compile>
+    <Compile Include="TableA1ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableA1ChefView.Designer.cs">
+      <DependentUpon>TableA1ChefView.cs</DependentUpon>
+    </Compile>
     <Compile Include="Waiter%27s View.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Waiter%27s View.Designer.cs">
       <DependentUpon>Waiter%27s View.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Chef%27s View.resx">
+      <DependentUpon>Chef%27s View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer%27s View.resx">
+      <DependentUpon>Customer%27s View.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </EmbeddedResource>
@@ -98,6 +122,9 @@
     </Compile>
     <EmbeddedResource Include="TableA1.resx">
       <DependentUpon>TableA1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableA1ChefView.resx">
+      <DependentUpon>TableA1ChefView.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Waiter%27s View.resx">
       <DependentUpon>Waiter%27s View.cs</DependentUpon>

@@ -1,6 +1,6 @@
 ﻿namespace _Project_III_GUI
 {
-    partial class Waiter_s_View
+    partial class Customer_s_View
     {
         /// <summary>
         /// Required designer variable.
@@ -47,7 +47,6 @@
             // 
             // label1
             // 
-            this.label1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -56,9 +55,8 @@
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(843, 109);
-            this.label1.TabIndex = 3;
+            this.label1.TabIndex = 4;
             this.label1.Text = "Ethan\'s Restaurant";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // panel1
             // 
@@ -80,8 +78,7 @@
             this.panel1.Margin = new System.Windows.Forms.Padding(2);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(993, 707);
-            this.panel1.TabIndex = 4;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            this.panel1.TabIndex = 5;
             // 
             // label13
             // 
@@ -95,7 +92,6 @@
             this.label13.Size = new System.Drawing.Size(73, 49);
             this.label13.TabIndex = 11;
             this.label13.Text = "C3";
-            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label12
             // 
@@ -109,7 +105,6 @@
             this.label12.Size = new System.Drawing.Size(73, 49);
             this.label12.TabIndex = 10;
             this.label12.Text = "B3";
-            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label11
             // 
@@ -123,7 +118,6 @@
             this.label11.Size = new System.Drawing.Size(74, 49);
             this.label11.TabIndex = 9;
             this.label11.Text = "A6";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
             // 
             // label10
             // 
@@ -137,7 +131,6 @@
             this.label10.Size = new System.Drawing.Size(73, 49);
             this.label10.TabIndex = 8;
             this.label10.Text = "C2";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label9
             // 
@@ -151,7 +144,6 @@
             this.label9.Size = new System.Drawing.Size(73, 49);
             this.label9.TabIndex = 7;
             this.label9.Text = "B2";
-            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // label8
             // 
@@ -165,7 +157,6 @@
             this.label8.Size = new System.Drawing.Size(74, 49);
             this.label8.TabIndex = 6;
             this.label8.Text = "A5";
-            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label7
             // 
@@ -179,7 +170,6 @@
             this.label7.Size = new System.Drawing.Size(73, 49);
             this.label7.TabIndex = 5;
             this.label7.Text = "C1";
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label6
             // 
@@ -193,7 +183,6 @@
             this.label6.Size = new System.Drawing.Size(73, 49);
             this.label6.TabIndex = 4;
             this.label6.Text = "B1";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // label5
             // 
@@ -207,7 +196,6 @@
             this.label5.Size = new System.Drawing.Size(74, 49);
             this.label5.TabIndex = 3;
             this.label5.Text = "A4";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
@@ -221,7 +209,6 @@
             this.label4.Size = new System.Drawing.Size(74, 49);
             this.label4.TabIndex = 2;
             this.label4.Text = "A3";
-            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // label3
             // 
@@ -235,7 +222,6 @@
             this.label3.Size = new System.Drawing.Size(74, 49);
             this.label3.TabIndex = 1;
             this.label3.Text = "A2";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -249,18 +235,16 @@
             this.label2.Size = new System.Drawing.Size(74, 49);
             this.label2.TabIndex = 0;
             this.label2.Text = "A1";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // Waiter_s_View
+            // Customer_s_View
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1918, 1077);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2);
-            this.Name = "Waiter_s_View";
-            this.Text = "Waiter_s_View";
+            this.Name = "Customer_s_View";
+            this.Text = "Customer_s_View";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
