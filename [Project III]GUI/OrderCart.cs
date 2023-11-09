@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.UI.WebControls;
 using System.Windows.Forms;
 
 namespace _Project_III_GUI
@@ -23,13 +24,13 @@ namespace _Project_III_GUI
         }
 
         private void button1_Click(object sender, EventArgs e)
-        {
+        { 
             DialogResult dr = MessageBox.Show("Your order has been sent.");
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-
+            string hello = label1.Text;
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
