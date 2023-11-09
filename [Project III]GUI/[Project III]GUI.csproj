@@ -73,6 +73,12 @@
     <Compile Include="LoginPage.Designer.cs">
       <DependentUpon>LoginPage.cs</DependentUpon>
     </Compile>
+    <Compile Include="Mainmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainmenu.Designer.cs">
+      <DependentUpon>Mainmenu.cs</DependentUpon>
+    </Compile>
     <Compile Include="OrderCart.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,6 +99,12 @@
     <Compile Include="TableA1ChefView.Designer.cs">
       <DependentUpon>TableA1ChefView.cs</DependentUpon>
     </Compile>
+    <Compile Include="TableA2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableA2.Designer.cs">
+      <DependentUpon>TableA2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Waiter%27s View.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -107,6 +119,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainmenu.resx">
+      <DependentUpon>Mainmenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrderCart.resx">
       <DependentUpon>OrderCart.cs</DependentUpon>
@@ -125,6 +140,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TableA1ChefView.resx">
       <DependentUpon>TableA1ChefView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableA2.resx">
+      <DependentUpon>TableA2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Waiter%27s View.resx">
       <DependentUpon>Waiter%27s View.cs</DependentUpon>

@@ -10,19 +10,16 @@ using System.Windows.Forms;
 
 namespace _Project_III_GUI
 {
-    public partial class Chef_s_View : Form
+    public partial class Mainmenu : Form
     {
-        public Chef_s_View()
+        public Mainmenu()
         {
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
-            TableA1ChefView tablea1 = new TableA1ChefView();
-            tablea1.Show();
-            Visible = false;
+
         }
     }
 }
-

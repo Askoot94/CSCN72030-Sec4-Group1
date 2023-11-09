@@ -28,3 +28,5 @@ C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Deb
 C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableA1ChefView.resources
 C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.Chef_s_View.resources
 C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.Customer_s_View.resources
+C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.Mainmenu.resources
+C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableA2.resources
