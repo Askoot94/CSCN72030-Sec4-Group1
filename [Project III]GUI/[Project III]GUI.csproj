@@ -55,11 +55,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chef%27s View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chef%27s View.Designer.cs">
+      <DependentUpon>Chef%27s View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer%27s View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer%27s View.Designer.cs">
+      <DependentUpon>Customer%27s View.cs</DependentUpon>
+    </Compile>
     <Compile Include="LoginPage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="LoginPage.Designer.cs">
       <DependentUpon>LoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Mainmenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Mainmenu.Designer.cs">
+      <DependentUpon>Mainmenu.cs</DependentUpon>
     </Compile>
     <Compile Include="OrderCart.cs">
       <SubType>Form</SubType>
@@ -75,14 +93,35 @@
     <Compile Include="TableA1.Designer.cs">
       <DependentUpon>TableA1.cs</DependentUpon>
     </Compile>
+    <Compile Include="TableA1ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableA1ChefView.Designer.cs">
+      <DependentUpon>TableA1ChefView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableA2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableA2.Designer.cs">
+      <DependentUpon>TableA2.cs</DependentUpon>
+    </Compile>
     <Compile Include="Waiter%27s View.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Waiter%27s View.Designer.cs">
       <DependentUpon>Waiter%27s View.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Chef%27s View.resx">
+      <DependentUpon>Chef%27s View.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer%27s View.resx">
+      <DependentUpon>Customer%27s View.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="LoginPage.resx">
       <DependentUpon>LoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Mainmenu.resx">
+      <DependentUpon>Mainmenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="OrderCart.resx">
       <DependentUpon>OrderCart.cs</DependentUpon>
@@ -98,6 +137,12 @@
     </Compile>
     <EmbeddedResource Include="TableA1.resx">
       <DependentUpon>TableA1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableA1ChefView.resx">
+      <DependentUpon>TableA1ChefView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableA2.resx">
+      <DependentUpon>TableA2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Waiter%27s View.resx">
       <DependentUpon>Waiter%27s View.cs</DependentUpon>

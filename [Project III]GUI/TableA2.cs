@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace _Project_III_GUI
 {
-    public partial class TableA1 : Form
+    public partial class TableA2 : Form
     {
-        public TableA1()
+        public TableA2()
         {
             InitializeComponent();
-        }
-
-        private void TableA1_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

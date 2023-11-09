@@ -42,14 +42,18 @@ namespace _Project_III_GUI
 
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        private void label2_Click(object sender, EventArgs e) // Table A1 
         {
-
-        }
+            TableA1 tablea1 = new TableA1();
+            tablea1.Show();
+            Visible = false;
+        } 
 
         private void label3_Click(object sender, EventArgs e)
         {
-
+            TableA2 tablea2 = new TableA2();
+            tablea2.Show();
+            Visible = false;
         }
 
         private void label4_Click(object sender, EventArgs e)

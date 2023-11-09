@@ -10,14 +10,14 @@ using System.Windows.Forms;
 
 namespace _Project_III_GUI
 {
-    public partial class TableA1 : Form
+    public partial class Mainmenu : Form
     {
-        public TableA1()
+        public Mainmenu()
         {
             InitializeComponent();
         }
 
-        private void TableA1_Load(object sender, EventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }
