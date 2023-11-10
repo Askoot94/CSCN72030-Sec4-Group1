@@ -16,12 +16,12 @@ namespace _Project_III_GUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Mainmenu());
-            //Application.Run(new LoginPage());
-            //Application.Run(new TableA1ChefView());
+            Application.Run(new LoginPage());
             Application.Run(new Waiter_s_View());
+            Application.Run(new TableA1ChefView());
             Application.Run(new TableA1());
-            //Application.Run(new OrderCart());
+            Application.Run(new Mainmenu());
+            Application.Run(new OrderCart());
         }
     }
 }
