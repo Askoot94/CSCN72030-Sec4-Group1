@@ -83,5 +83,20 @@
   <ItemGroup>
     <None Include="Resources\GUI Main Menu Background.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-11-08 131029.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-11-08 131141.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-11-08 131307.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-11-08 131432.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Screenshot 2023-11-08 131604.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
