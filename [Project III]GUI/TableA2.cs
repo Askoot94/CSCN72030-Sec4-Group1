@@ -17,20 +17,12 @@ namespace _Project_III_GUI
             InitializeComponent();
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e) // Button change text
+        private void guna2Button1_Click(object sender, EventArgs e)
         {
-            label11.Text = "Hello";
+             
         }
 
-        private void label11_Click(object sender, EventArgs e) // - Label
-        {
-            int i;
-        }
-
-        private void label12_Click(object sender, EventArgs e) // + Label
-        {
-            int i;
-        }
+       
     }
 }
 

@@ -21,5 +21,40 @@ namespace _Project_III_GUI
         {
 
         }
+
+        private void Mainmenu_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CirclePictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox1_TextChanged_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

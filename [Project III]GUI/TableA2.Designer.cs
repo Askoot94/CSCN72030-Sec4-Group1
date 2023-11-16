@@ -46,8 +46,6 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
-            this.label11 = new System.Windows.Forms.Label();
             this.guna2Panel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -75,7 +73,7 @@
             this.guna2CircleButton3.FillColor = System.Drawing.Color.Transparent;
             this.guna2CircleButton3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton3.ForeColor = System.Drawing.Color.Black;
-            this.guna2CircleButton3.Location = new System.Drawing.Point(645, 466);
+            this.guna2CircleButton3.Location = new System.Drawing.Point(636, 468);
             this.guna2CircleButton3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CircleButton3.Name = "guna2CircleButton3";
             this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
@@ -292,41 +290,11 @@
             this.label5.TabIndex = 17;
             this.label5.Text = "Table A2";
             // 
-            // guna2Button1
-            // 
-            this.guna2Button1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button1.Font = new System.Drawing.Font("Segoe UI", 13.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button1.Location = new System.Drawing.Point(964, 676);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(209, 108);
-            this.guna2Button1.TabIndex = 25;
-            this.guna2Button1.Text = "Change the text";
-            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.Location = new System.Drawing.Point(1179, 717);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(245, 31);
-            this.label11.TabIndex = 26;
-            this.label11.Text = "Ethan is handsome";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
-            // 
             // TableA2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1420, 807);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.textBox3);
@@ -366,7 +334,5 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private System.Windows.Forms.Label label11;
     }
 }
