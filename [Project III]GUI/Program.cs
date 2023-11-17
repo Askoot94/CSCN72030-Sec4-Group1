@@ -19,7 +19,8 @@ namespace _Project_III_GUI
             // Application.Run(new TableA1());
             // Application.Run(new Waiter_s_View());   
             // Application.Run(new LoginPage());   
-             Application.Run(new OrderCart());
+            Application.Run(new OrderCart());
+
         }
     }
 }
