@@ -56,10 +56,5 @@ namespace _Project_III_GUI
         {
 
         }
-
-        private void guna2TextBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
     }
 }
