@@ -160,5 +160,10 @@ namespace _Project_III_GUI
         {
             DecrementQuantity(TxtBox8);
         }
+
+        private void TxtBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
