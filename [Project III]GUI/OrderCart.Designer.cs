@@ -42,7 +42,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Times New Roman", 10.875F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.LightCoral;
-            this.button1.Location = new System.Drawing.Point(1241, 422);
+            this.button1.Location = new System.Drawing.Point(1244, 428);
             this.button1.Margin = new System.Windows.Forms.Padding(2);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(126, 58);
@@ -60,7 +60,7 @@
             this.label1.Location = new System.Drawing.Point(851, 9);
             this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(186, 49);
+            this.label1.Size = new System.Drawing.Size(140, 37);
             this.label1.TabIndex = 7;
             this.label1.Text = "Table A1";
             // 
@@ -73,7 +73,7 @@
             this.label2.Location = new System.Drawing.Point(875, 68);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(135, 33);
+            this.label2.Size = new System.Drawing.Size(107, 25);
             this.label2.TabIndex = 8;
             this.label2.Text = "Order Cart";
             // 

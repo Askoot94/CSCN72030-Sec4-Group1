@@ -22,7 +22,35 @@ namespace _Project_III_GUI
              
         }
 
-       
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+        }
+
+
+        // Function to set the visibility of a box in the TableLayoutPanel
+        private void SetBoxVisibility(int row, int column, bool isVisible)
+        {
+            Control box = tableLayoutPanel2.GetControlFromPosition(column, row);
+
+            if (box != null)
+            {
+                box.Visible = isVisible;
+            }
+        }
+
+        private void ExampleUsage()
+        {
+            SetBoxVisibility(0, 1, true);
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+        }
     }
 }
 
