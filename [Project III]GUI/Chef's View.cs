@@ -23,6 +23,11 @@ namespace _Project_III_GUI
             tablea1.Show();
             Visible = false;
         }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
