@@ -135,6 +135,7 @@
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(200, 807);
             this.guna2Panel1.TabIndex = 13;
+            this.guna2Panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.guna2Panel1_Paint);
             // 
             // guna2Button19
             // 
@@ -151,6 +152,7 @@
             this.guna2Button19.Size = new System.Drawing.Size(174, 95);
             this.guna2Button19.TabIndex = 2;
             this.guna2Button19.Text = "Order Status";
+            this.guna2Button19.Click += new System.EventHandler(this.guna2Button19_Click);
             // 
             // guna2Button18
             // 
@@ -167,6 +169,7 @@
             this.guna2Button18.Size = new System.Drawing.Size(167, 58);
             this.guna2Button18.TabIndex = 1;
             this.guna2Button18.Text = "Cart";
+            this.guna2Button18.Click += new System.EventHandler(this.guna2Button18_Click);
             // 
             // guna2Button1
             // 
@@ -183,6 +186,7 @@
             this.guna2Button1.Size = new System.Drawing.Size(174, 61);
             this.guna2Button1.TabIndex = 0;
             this.guna2Button1.Text = "Call Server";
+            this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2ContextMenuStrip1
             // 
@@ -1264,6 +1268,7 @@
             this.guna2ComboBox1.Name = "guna2ComboBox1";
             this.guna2ComboBox1.Size = new System.Drawing.Size(336, 36);
             this.guna2ComboBox1.TabIndex = 23;
+            this.guna2ComboBox1.SelectedIndexChanged += new System.EventHandler(this.guna2ComboBox1_SelectedIndexChanged);
             // 
             // Mainmenu
             // 

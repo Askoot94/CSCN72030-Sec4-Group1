@@ -21,5 +21,10 @@ namespace _Project_III_GUI
         {
 
         }
+
+        private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }

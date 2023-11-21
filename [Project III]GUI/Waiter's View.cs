@@ -95,5 +95,12 @@ namespace _Project_III_GUI
         {
 
         }
+
+        // Inside the OtherPage class
+        public void UpdateLabel(string newText)
+        {
+            label2.Text = newText;
+        }
+
     }
 }

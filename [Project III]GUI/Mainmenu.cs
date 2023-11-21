@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace _Project_III_GUI
 {
     public partial class Mainmenu : Form
@@ -162,6 +163,40 @@ namespace _Project_III_GUI
         }
 
         private void TxtBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button18_Click(object sender, EventArgs e)
+        {
+             // Create an instance of OrderCart form
+             OrderCart orderCartForm = new OrderCart();
+
+             // Show the OrderCart form
+             orderCartForm.Show();
+
+        }
+
+        private void guna2Button19_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        // Inside the current page class
+        private Waiter_s_View _otherPage = new Waiter_s_View();
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+            _otherPage.UpdateLabel("A1 !");
+            _otherPage.Show();
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2ComboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

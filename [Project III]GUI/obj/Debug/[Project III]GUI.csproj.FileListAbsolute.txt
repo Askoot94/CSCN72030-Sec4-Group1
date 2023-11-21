@@ -51,3 +51,5 @@ C:\Users\giris\source\repos\Group 1 SDLC Askoot\[Project III]GUI\obj\Debug\[Proj
 C:\Users\giris\source\repos\Group 1 SDLC Askoot\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.CopyComplete
 C:\Users\giris\source\repos\Group 1 SDLC Askoot\[Project III]GUI\obj\Debug\[Project III]GUI.exe
 C:\Users\giris\source\repos\Group 1 SDLC Askoot\[Project III]GUI\obj\Debug\[Project III]GUI.pdb
+C:\Users\giris\source\repos\Group 1 SDLC Askoot\[Project III]GUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\giris\source\repos\Group 1 SDLC Askoot\[Project III]GUI\bin\Debug\Newtonsoft.Json.xml
