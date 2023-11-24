@@ -15,11 +15,11 @@ namespace _Project_III_GUI
         public Waiter_s_View()
         {
             InitializeComponent();
+            
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-
         }
 
         private void label8_Click(object sender, EventArgs e)

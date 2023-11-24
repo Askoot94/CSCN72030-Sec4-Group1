@@ -1,0 +1,28 @@
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.csproj.AssemblyReference.cache
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.LoginPage.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.OrderCart.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.Properties.Resources.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA1.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.Waiter_s_View.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.csproj.GenerateResource.cache
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.GeneratedMSBuildEditorConfig.editorconfig
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.csproj.CoreCompileInputs.cache
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\[Project III]GUI.exe
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\[Project III]GUI.dll.config
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\[Project III]GUI.deps.json
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\[Project III]GUI.runtimeconfig.json
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\[Project III]GUI.dll
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\[Project III]GUI.pdb
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\Guna.UI2.dll
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\Microsoft.AspNetCore.SystemWebAdapters.dll
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\System.CodeDom.dll
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\System.Management.dll
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\System.Runtime.Caching.dll
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.csproj.CopyComplete
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.dll
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\refint\[Project III]GUI.dll
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.pdb
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.genruntimeconfig.cache
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\ref\[Project III]GUI.dll
