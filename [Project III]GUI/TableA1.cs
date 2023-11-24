@@ -15,6 +15,7 @@ namespace _Project_III_GUI
         public TableA1()
         {
             InitializeComponent();
+
         }
 
         private void TableA1_Load(object sender, EventArgs e)
@@ -23,6 +24,26 @@ namespace _Project_III_GUI
         }
 
         private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        public void UpdateTextBox4(string newText)
+        {
+            textBox4.Text = newText;
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -11,8 +11,12 @@ using System.Windows.Forms;
 
 namespace _Project_III_GUI
 {
+  
+    
     public partial class Mainmenu : Form
     {
+       
+
         public Mainmenu()
         {
             InitializeComponent();
@@ -83,6 +87,8 @@ namespace _Project_III_GUI
 
             // Update the GunaTextBox with the new value
             textBox.Text = currentValue.ToString();
+
+            
         }
 
         private void DecrementQuantity(Guna.UI2.WinForms.Guna2TextBox textBox)
@@ -95,7 +101,10 @@ namespace _Project_III_GUI
 
             // Update the GunaTextBox with the new value
             textBox.Text = currentValue.ToString();
+            
         }
+
+        
 
         private void ButtonMinus2_Click(object sender, EventArgs e)
         {
@@ -169,11 +178,6 @@ namespace _Project_III_GUI
 
         private void guna2Button18_Click(object sender, EventArgs e)
         {
-             // Create an instance of OrderCart form
-             OrderCart orderCartForm = new OrderCart();
-
-             // Show the OrderCart form
-             orderCartForm.Show();
 
         }
 
@@ -200,5 +204,6 @@ namespace _Project_III_GUI
         {
 
         }
+
     }
 }

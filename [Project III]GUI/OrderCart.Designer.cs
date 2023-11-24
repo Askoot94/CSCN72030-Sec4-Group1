@@ -557,6 +557,7 @@
             this.guna2TextBox10.Size = new System.Drawing.Size(161, 50);
             this.guna2TextBox10.TabIndex = 4;
             this.guna2TextBox10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.guna2TextBox10.TextChanged += new System.EventHandler(this.guna2TextBox10_TextChanged);
             // 
             // guna2CirclePictureBox4
             // 

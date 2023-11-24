@@ -15,6 +15,7 @@ namespace _Project_III_GUI
         public Waiter_s_View()
         {
             InitializeComponent();
+
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
@@ -47,7 +48,14 @@ namespace _Project_III_GUI
             TableA1 tablea1 = new TableA1();
             tablea1.Show();
             Visible = false;
-        } 
+
+
+        }
+
+         public void UpdateLabel(string newText)
+         {
+             label2.Text = newText;
+         }
 
         private void label3_Click(object sender, EventArgs e)
         {
@@ -95,12 +103,6 @@ namespace _Project_III_GUI
         {
 
         }
-
-        // Inside the OtherPage class
-        public void UpdateLabel(string newText)
-        {
-            label2.Text = newText;
-        }
-
-    }
+    }  
+    
 }
