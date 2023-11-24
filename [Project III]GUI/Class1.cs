@@ -43,7 +43,7 @@ namespace _Project_III_GUI
                 MenuItems = JsonSerializer.Deserialize<List<FoodItem>>(json);
             }
             //Check for errors
-            if(MenuItems == null && MenuItems.Count == 0)
+            if(MenuItems == null || MenuItems.Count == 0)
             {
                 //Something bad has happened
                 item_id = -1;
@@ -119,17 +119,21 @@ namespace _Project_III_GUI
         {
             TableName = Table;
             //Open the File to be read
-            string FileName = TableName + ".json";
+            string FileName = "./Files/" + TableName + ".json";
+
             using (StreamReader r = new StreamReader(FileName))
             {
                 //Read the File from start to end of file
                 string json = r.ReadToEnd();
-                //Turn as all the information into objeects of FoodItemClass
-                Food = JsonSerializer.Deserialize<List<FoodItem>>(json);
+
+                if (!string.IsNullOrEmpty(json))
+                {//Turn as all the information into objeects of FoodItemClass
+                    Food = JsonSerializer.Deserialize<List<FoodItem>>(json);
+                }
             }
 
             //Check that the json data serialized properly
-            if (this.Food == null && Food.Count == 0)
+            if (this.Food == null || Food.Count == 0)
             {
                 //If the jsonfile is empty or didnt' exist, treat this order objects as a fresh object.
                 this.Dishes = 0;
