@@ -22,4 +22,12 @@
     <Compile Remove="UserControl1.Designer.cs" />
     <EmbeddedResource Remove="UserControl1.resx" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Files\testing.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Files\testing.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
 </Project>

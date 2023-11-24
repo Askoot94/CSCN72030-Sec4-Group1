@@ -10,6 +10,7 @@ using System.Runtime.CompilerServices;
 using System.Net.Security;
 using System.Collections.ObjectModel;
 using System.Web;
+using System.Runtime.InteropServices;
 
 namespace _Project_III_GUI
 {
@@ -23,6 +24,7 @@ namespace _Project_III_GUI
         public FoodItem(int ID, string Food, float price, int amount)
         {
             //This is the constructor for a normal food item where all parameters are passed
+            //Under normal circumstances this constructor should not be used.
             this.item_id = ID;
             this.name = Food;
             this.price = price;
@@ -30,16 +32,65 @@ namespace _Project_III_GUI
         }
         public FoodItem(int itemIdentifier, int amount)
         {
-            //THis is the constructor for fooditems by retrieving thedata from a separate file.
+            List<FoodItem> MenuItems = new List<FoodItem>();
+
+            //THis is the constructor for fooditems by retrieving the data from a separate file.
+            //Under ideal circumstances this is the constructor that should be called always.
+            using (StreamReader r = new StreamReader("Menu.json"))
+            {
+                //Read the information of the menu.
+                string json = r.ReadToEnd();
+                MenuItems = JsonSerializer.Deserialize<List<FoodItem>>(json);
+            }
+            //Check for errors
+            if(MenuItems == null && MenuItems.Count == 0)
+            {
+                //Something bad has happened
+                item_id = -1;
+                name = null;
+                price = -1;
+                quantity = -1;
+                return;
+            }
+
+            //look through the list of fooditems for the item that has the same item identifier assed as a parameter
+            foreach (var FoodItem in MenuItems)
+            {
+                if (FoodItem.GetID() == itemIdentifier)
+                {
+                    //Copy the information of the menu item to an actual object
+                    this.quantity = amount;
+                    this.price = FoodItem.price;
+                    this.name = FoodItem.name;
+                    this.item_id = itemIdentifier;
+                    return;
+                }
+            }
+            //If the code didn't find thefooditem object with an identical itemidentifier than return an error object
+            item_id = -1;
+            name = null;
+            price = -1;
+            quantity = -1;
+            return;
 
         }
         public int GetID()
         {
             return item_id;
         }
-        public void SetQuantity(int newVal)
+        public bool SetQuantity(int newVal)
         {
+            //Update quantity
             this.quantity += newVal;
+
+            //Check that the quantity is not <=0
+            if (this.quantity < 1)
+            {
+                //Indicate a need to delete
+                return false;
+            }
+            else
+                return true;
         }
         public void GetInfo(out string storeage)
         {
@@ -95,26 +146,30 @@ namespace _Project_III_GUI
             return Dishes;
         }
 
-        public void AddItem(int Item, int Quantity)
+        public void AddItem(int ItemId, int Quantity)
         {
-            FoodItem Creation = new FoodItem(Item, Quantity);
-            this.Food[Dishes] = Creation;
+            FoodItem Creation = new FoodItem(ItemId, Quantity);
+            this.Food.Add(Creation);
             Dishes++;
         }
         public void SaveToFile()
         {
             return;
         }
-        public void RemoveItem(int amount, int Item)
+        public void AdjustAmountOfItem(int Item, int amount)
         {
-            for(int i =0; i <= Dishes; i++)
+            //Find the Item from the list of fooditems specified by int item
+            FoodItem matching = Food.Find(thing => thing.GetID() == Item);
+
+            //Take matching item and adjust the quantity by the int amount parameter
+            if (!matching.SetQuantity(amount))
             {
-                if (this.Food[i].GetID() == Item)
-                {
-                    this.Food[i].SetQuantity(amount);
-                }
+                //if return value is false then we need to delete the food item. Since it has a qunatity of 0 or less.
+                Food.Remove(matching);
+                return;
             }
-            return;
+            else
+                return;
         }
         public void GetDishInfo(int dishNumber, out string retrive)
         {
