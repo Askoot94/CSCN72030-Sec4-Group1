@@ -112,8 +112,8 @@ namespace _Project_III_GUI
     internal class Order
     {
         private string TableName;
-        private int Dishes =0;
-        private List<FoodItem> Food;
+        private int Dishes = 0;
+        private List<FoodItem> Food { get; set; }
 
         public Order(string Table)
         {
@@ -154,6 +154,17 @@ namespace _Project_III_GUI
         }
         public void SaveToFile()
         {
+            //Set the options for converting the data
+            var options = new JsonSerializerOptions();
+            options.PropertyNameCaseInsensitive = false;
+            options.WriteIndented = true;
+
+            //Turn Fooditem list into JSON format string data
+            byte[] jsonString = JsonSerializer.SerializeToUtf8Bytes<List<FoodItem>>(Food,options);
+            
+            //Write that json format data to a file.
+            File.WriteAllBytes(TableName + ".json", jsonString);
+
             return;
         }
         public void AdjustAmountOfItem(int Item, int amount)
