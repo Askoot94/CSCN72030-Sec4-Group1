@@ -11,16 +11,25 @@ using System.Net.Security;
 using System.Collections.ObjectModel;
 using System.Web;
 using System.Runtime.InteropServices;
+using System.Reflection.Metadata.Ecma335;
+using System.Xml.Linq;
 
 namespace _Project_III_GUI
 {
     internal class FoodItem
     {
-        private int item_id { get; set; }
-        private string name { get; set; }
-        private float price { get; set; }
-        private int quantity { get; set; }
+        public int item_id { get; set; }
+        public string name { get; set; }
+        public float price { get; set; }
+        public int quantity { get; set; }
 
+        public FoodItem()
+        {
+            item_id = 0;
+            name = null;
+            price = 0;
+            quantity = 0;
+        }
         public FoodItem(int ID, string Food, float price, int amount)
         {
             //This is the constructor for a normal food item where all parameters are passed
@@ -117,6 +126,10 @@ namespace _Project_III_GUI
 
         public Order(string Table)
         {
+            JsonSerializerOptions options = new JsonSerializerOptions();
+            options.WriteIndented = true;
+            options.PropertyNameCaseInsensitive = false;
+
             TableName = Table;
             //Open the File to be read
             string FileName = "./Files/" + TableName + ".json";
@@ -128,7 +141,7 @@ namespace _Project_III_GUI
 
                 if (!string.IsNullOrEmpty(json))
                 {//Turn as all the information into objeects of FoodItemClass
-                    Food = JsonSerializer.Deserialize<List<FoodItem>>(json);
+                    Food = JsonSerializer.Deserialize<List<FoodItem>>(json, options);
                 }
             }
 
@@ -137,11 +150,12 @@ namespace _Project_III_GUI
             {
                 //If the jsonfile is empty or didnt' exist, treat this order objects as a fresh object.
                 this.Dishes = 0;
+                Food = new List<FoodItem>(6);
                 return;
             }
-            
+
             //Update the number of unique dishes in the order
-            this.Dishes = Food.Count;
+            this.Dishes = Food.Count;     
             return;
 
         }
@@ -153,7 +167,13 @@ namespace _Project_III_GUI
         public void AddItem(int ItemId, int Quantity)
         {
             FoodItem Creation = new FoodItem(ItemId, Quantity);
-            this.Food.Add(Creation);
+            Food.Add(Creation);
+            Dishes++;
+        }
+        public void AddItem(int ItemId, string name, float price, int Quantity)
+        {
+            FoodItem Creation = new FoodItem(ItemId, name, price, Quantity);
+            Food.Add(Creation);
             Dishes++;
         }
         public void SaveToFile()
@@ -164,10 +184,10 @@ namespace _Project_III_GUI
             options.WriteIndented = true;
 
             //Turn Fooditem list into JSON format string data
-            byte[] jsonString = JsonSerializer.SerializeToUtf8Bytes<List<FoodItem>>(Food,options);
+            string jsonString = JsonSerializer.Serialize<List<FoodItem>>(Food, options);
             
             //Write that json format data to a file.
-            File.WriteAllBytes(TableName + ".json", jsonString);
+            File.WriteAllText("./Files/" + TableName + ".json", jsonString);
 
             return;
         }

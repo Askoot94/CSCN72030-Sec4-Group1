@@ -17,7 +17,11 @@ namespace _Project_III_GUI
         [STAThread]
         static void Main()
         {
-            Order newOrder = new Order("testing");
+            //Order newOrder = new Order("testing");
+            //newOrder.AddItem(1, "Burger", 10.99f, 1
+            //newOrder.AddItem(2, "Shake", 4.99f, 2);
+            //newOrder.AddItem(3, "Salad", 2.99f, 3);
+            //newOrder.SaveToFile();
 
             //Application.EnableVisualStyles();
             //Application.SetCompatibleTextRenderingDefault(false);
