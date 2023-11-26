@@ -1,5 +1,9 @@
 ﻿using System;
+using System.IO;
+using System.Text.Json; // For Json text file
 using System.Collections.Generic;
+// This using directive allows you to access types in the System.Collections.Generic namespace,
+// which includes the List<T> class used later in the code.
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
@@ -7,26 +11,35 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Guna.UI2.WinForms;
+using Newtonsoft.Json;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Menu;
+using TheArtOfDevHtmlRenderer.Adapters;
+
 
 namespace _Project_III_GUI
 {
     public partial class Mainmenu : Form
     {
+
+
         public Mainmenu()
         {
             InitializeComponent();
         }
+
+        private void Mainmenu_Load(object sender, EventArgs e)
+        {
+           
+        }
+
 
         private void label5_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void Mainmenu_Load(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void guna2Button2_Click(object sender, EventArgs e)
         {
 
@@ -47,27 +60,32 @@ namespace _Project_III_GUI
             IncrementQuantity(TxtBox1);
         }
 
-        private void guna2TextBox1_TextChanged_1(object sender, EventArgs e)
+
+
+   
+
+        private void guna2TextBox1_TextChanged_1(object sender, EventArgs e) // Price item 1
         {
+        }
+
+
+        private void guna2TextBox2_TextChanged(object sender, EventArgs e) // Description item 1
+        {
+            
 
         }
 
-        private void guna2TextBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2Button5_Click(object sender, EventArgs e)
+        private void guna2Button5_Click(object sender, EventArgs e) // Increment 1
         {
             IncrementQuantity(TxtBox2);
         }
 
-        private void guna2TextBox3_TextChanged(object sender, EventArgs e)
+        private void guna2TextBox3_TextChanged(object sender, EventArgs e) // Quantity item 1
         {
 
         }
 
-        private void ButtonMinus1_Click(object sender, EventArgs e)
+        private void ButtonMinus1_Click(object sender, EventArgs e) // Decrement 1
         {
             DecrementQuantity(TxtBox1);
         }
@@ -165,5 +183,31 @@ namespace _Project_III_GUI
         {
 
         }
+
+        private void guna2Button18_Click(object sender, EventArgs e) // Send button
+        {
+
+        }
+
+        private void guna2Button2_Click_2(object sender, EventArgs e) // back button
+        {
+           
+                Customer_s_View Customer = new Customer_s_View();
+                Customer.Show();
+                Visible = false; 
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e) // home button
+        {
+            DialogResult iOpen;
+            iOpen = MessageBox.Show("You want to go back to the login page?", "Ordering System", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+            if (iOpen == DialogResult.Yes)
+            {
+                LoginPage Home = new LoginPage();
+                Home.Show();
+                Visible = false;
+            }
+        }
     }
 }
+

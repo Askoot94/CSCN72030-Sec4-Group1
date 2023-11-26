@@ -1,4 +1,5 @@
-﻿using System;
+﻿using _Project_III_GUI;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -51,8 +52,26 @@ namespace _Project_III_GUI
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
         }
+
+        private void guna2Button2_Click(object sender, EventArgs e) // back button
+        {
+            Waiter_s_View Waiter = new Waiter_s_View();
+            Waiter.Show();
+            Visible = false;
+        }
+
+        private void guna2Button3_Click(object sender, EventArgs e) // home button
+        {
+            DialogResult iOpen;
+            iOpen = MessageBox.Show("You want to go back to the login page?", "Ordering System", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+            if (iOpen == DialogResult.Yes)
+            {
+                LoginPage Home = new LoginPage();
+                Home.Show();
+                Visible = false;
+            }
+        }
     }
 }
-
 
 

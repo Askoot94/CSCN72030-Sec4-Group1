@@ -39,10 +39,41 @@
     <Reference Include="Guna.UI2, Version=2.0.4.5, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.5\lib\net472\Guna.UI2.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.8.0.0\lib\net462\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Memory, Version=4.0.1.2, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.5\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encodings.Web, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.8.0.0\lib\net462\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.8.0.0\lib\net462\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -66,6 +97,18 @@
     </Compile>
     <Compile Include="Customer%27s View.Designer.cs">
       <DependentUpon>Customer%27s View.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableA2ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableA2ChefView.Designer.cs">
+      <DependentUpon>TableA2ChefView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableA3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableA3.Designer.cs">
+      <DependentUpon>TableA3.cs</DependentUpon>
     </Compile>
     <Compile Include="LoginPage.cs">
       <SubType>Form</SubType>
@@ -104,6 +147,120 @@
     </Compile>
     <Compile Include="TableA2.Designer.cs">
       <DependentUpon>TableA2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableA3ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableA3ChefView.Designer.cs">
+      <DependentUpon>TableA3ChefView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableA4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableA4.Designer.cs">
+      <DependentUpon>TableA4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableA4ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableA4ChefView.Designer.cs">
+      <DependentUpon>TableA4ChefView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableA5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableA5.Designer.cs">
+      <DependentUpon>TableA5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableA5ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableA5ChefView.Designer.cs">
+      <DependentUpon>TableA5ChefView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableA6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableA6.Designer.cs">
+      <DependentUpon>TableA6.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableA6ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableA6ChefView.Designer.cs">
+      <DependentUpon>TableA6ChefView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableB1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableB1.Designer.cs">
+      <DependentUpon>TableB1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableB1ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableB1ChefView.Designer.cs">
+      <DependentUpon>TableB1ChefView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableB2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableB2.Designer.cs">
+      <DependentUpon>TableB2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableB2ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableB2ChefView.Designer.cs">
+      <DependentUpon>TableB2ChefView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableB3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableB3.Designer.cs">
+      <DependentUpon>TableB3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableB3ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableB3ChefView.Designer.cs">
+      <DependentUpon>TableB3ChefView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableC1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableC1.Designer.cs">
+      <DependentUpon>TableC1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableC1ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableC1ChefView.Designer.cs">
+      <DependentUpon>TableC1ChefView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableC2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableC2.Designer.cs">
+      <DependentUpon>TableC2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableC2ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableC2ChefView.Designer.cs">
+      <DependentUpon>TableC2ChefView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableC3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableC3.Designer.cs">
+      <DependentUpon>TableC3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TableC3ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TableC3ChefView.Designer.cs">
+      <DependentUpon>TableC3ChefView.cs</DependentUpon>
     </Compile>
     <Compile Include="Waiter%27s View.cs">
       <SubType>Form</SubType>
@@ -144,9 +301,73 @@
     <EmbeddedResource Include="TableA2.resx">
       <DependentUpon>TableA2.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="TableA2ChefView.resx">
+      <DependentUpon>TableA2ChefView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableA3.resx">
+      <DependentUpon>TableA3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableA3ChefView.resx">
+      <DependentUpon>TableA3ChefView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableA4.resx">
+      <DependentUpon>TableA4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableA4ChefView.resx">
+      <DependentUpon>TableA4ChefView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableA5.resx">
+      <DependentUpon>TableA5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableA5ChefView.resx">
+      <DependentUpon>TableA5ChefView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableA6.resx">
+      <DependentUpon>TableA6.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableA6ChefView.resx">
+      <DependentUpon>TableA6ChefView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableB1.resx">
+      <DependentUpon>TableB1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableB1ChefView.resx">
+      <DependentUpon>TableB1ChefView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableB2.resx">
+      <DependentUpon>TableB2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableB2ChefView.resx">
+      <DependentUpon>TableB2ChefView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableB3.resx">
+      <DependentUpon>TableB3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableB3ChefView.resx">
+      <DependentUpon>TableB3ChefView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableC1.resx">
+      <DependentUpon>TableC1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableC1ChefView.resx">
+      <DependentUpon>TableC1ChefView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableC2.resx">
+      <DependentUpon>TableC2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableC2ChefView.resx">
+      <DependentUpon>TableC2ChefView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableC3.resx">
+      <DependentUpon>TableC3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TableC3ChefView.resx">
+      <DependentUpon>TableC3ChefView.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Waiter%27s View.resx">
       <DependentUpon>Waiter%27s View.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="menuData.json" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
