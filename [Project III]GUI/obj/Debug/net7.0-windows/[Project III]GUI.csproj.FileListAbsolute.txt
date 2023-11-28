@@ -26,4 +26,3 @@ D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III
 D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.pdb
 D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.genruntimeconfig.cache
 D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\ref\[Project III]GUI.dll
-D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\Files\testing.json

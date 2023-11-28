@@ -27,7 +27,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Files\testing.json">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
 </Project>
