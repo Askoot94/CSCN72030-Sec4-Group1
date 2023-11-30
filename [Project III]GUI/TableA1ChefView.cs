@@ -16,6 +16,7 @@ namespace _Project_III_GUI
         public TableA1ChefView()
         {
             InitializeComponent();
+            guna2CircleButton1.Click += guna2CircleButton1_Click;
         }
 
         private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
@@ -57,9 +58,12 @@ namespace _Project_III_GUI
 
         }
 
+        private TableA1 TableA1 = new TableA1();
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
-
+            textBox7.Text = "Ready";
+            TableA1.UpdateTextbox("Ready");
+            TableA1.Show();
         }
 
         private void label4_Click(object sender, EventArgs e)

@@ -92,3 +92,65 @@ C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Deb
 C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableC1ChefView.resources
 C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableC2ChefView.resources
 C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableC3ChefView.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\[Project III]GUI.exe.config
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\[Project III]GUI.exe
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\[Project III]GUI.pdb
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\Guna.UI2.dll
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\System.Buffers.dll
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\System.Memory.dll
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\System.Text.Json.dll
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\System.ValueTuple.dll
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\System.Buffers.xml
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\System.Memory.xml
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\System.Text.Json.xml
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\System.ValueTuple.xml
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.AssemblyReference.cache
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.Chef_s_View.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.Customer_s_View.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.LoginPage.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.Mainmenu.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.OrderCart.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.Properties.Resources.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableA1.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableA1ChefView.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableA2.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableA2ChefView.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableA3.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableA3ChefView.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableA4.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableA4ChefView.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableA5.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableA5ChefView.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableA6.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableA6ChefView.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableB1.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableB1ChefView.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableB2.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableB2ChefView.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableB3.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableB3ChefView.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableC1.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableC1ChefView.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableC2.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableC2ChefView.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableC3.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableC3ChefView.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.Waiter_s_View.resources
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.GenerateResource.cache
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.CoreCompileInputs.cache
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.CopyComplete
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.exe
+C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.pdb

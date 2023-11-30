@@ -16,6 +16,7 @@ namespace _Project_III_GUI
         public TableA1()
         {
             InitializeComponent();
+
         }
 
         private void TableA1_Load(object sender, EventArgs e)
@@ -41,5 +42,16 @@ namespace _Project_III_GUI
                 Visible = false;
             }
         }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        public void UpdateTextbox(string newText)
+        {
+            textBox7.Text = newText;
+        }
+
     }
 }

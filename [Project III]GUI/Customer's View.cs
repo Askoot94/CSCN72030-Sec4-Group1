@@ -36,5 +36,24 @@ namespace _Project_III_GUI
                 Visible = false;
             }
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            Mainmenu Mainmenu = new Mainmenu();
+            Mainmenu.Show();
+            Visible = false;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            Mainmenu Mainmenu = new Mainmenu();
+            Mainmenu.Show();
+            Visible = false;
+        }
     }
 }

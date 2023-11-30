@@ -137,5 +137,10 @@ namespace _Project_III_GUI
                 Visible = false;
             }
         }
+
+        public void UpdateLabel(string newText)
+        {
+            label2.Text = newText;
+        }
     }
 }
