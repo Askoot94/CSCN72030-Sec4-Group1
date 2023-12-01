@@ -4,13 +4,91 @@
     <ProjectView>ProjectFiles</ProjectView>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Update="Chef%27s View.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Customer%27s View.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="LoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Mainmenu.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="OrderCart.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="TableA1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableA1ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableA2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableA2ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableA3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableA3ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableA4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableA4ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableA5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableA5ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableA6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableA6ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableB1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableB1ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableB2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableB2ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableB3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableB3ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableC1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableC1ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableC2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableC2ChefView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableC3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="TableC3ChefView.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Update="Waiter%27s View.cs">

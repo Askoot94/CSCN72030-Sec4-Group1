@@ -12,6 +12,7 @@ namespace _Project_III_GUI
 {
     public partial class TableB1 : Form
     {
+        Order tableOrder = new Order("TableB1");
         public TableB1()
         {
             InitializeComponent();

@@ -39,7 +39,7 @@ namespace _Project_III_GUI
 
         private void label2_Click(object sender, EventArgs e)
         {
-            Mainmenu Mainmenu = new Mainmenu();
+            Mainmenu Mainmenu = new Mainmenu("TableA1");
             Mainmenu.Show();
             Visible = false;
         }
@@ -51,7 +51,7 @@ namespace _Project_III_GUI
 
         private void label3_Click(object sender, EventArgs e)
         {
-            Mainmenu Mainmenu = new Mainmenu();
+            Mainmenu Mainmenu = new Mainmenu("TableA2");
             Mainmenu.Show();
             Visible = false;
         }

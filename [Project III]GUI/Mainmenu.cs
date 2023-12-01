@@ -12,7 +12,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Guna.UI2.WinForms;
-using Newtonsoft.Json;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement.Menu;
 using TheArtOfDevHtmlRenderer.Adapters;
 
@@ -21,16 +20,17 @@ namespace _Project_III_GUI
 {
     public partial class Mainmenu : Form
     {
+        public Order tableOrder;
 
-
-        public Mainmenu()
+        public Mainmenu(string table)
         {
+            Order tableOrder = new Order(table);
             InitializeComponent();
         }
 
         private void Mainmenu_Load(object sender, EventArgs e)
         {
-           
+
         }
 
 
@@ -39,7 +39,7 @@ namespace _Project_III_GUI
 
         }
 
-       
+
         private void guna2Button2_Click(object sender, EventArgs e)
         {
 
@@ -62,7 +62,7 @@ namespace _Project_III_GUI
 
 
 
-   
+
 
         private void guna2TextBox1_TextChanged_1(object sender, EventArgs e) // Price item 1
         {
@@ -71,7 +71,7 @@ namespace _Project_III_GUI
 
         private void guna2TextBox2_TextChanged(object sender, EventArgs e) // Description item 1
         {
-            
+
 
         }
 
@@ -191,10 +191,10 @@ namespace _Project_III_GUI
 
         private void guna2Button2_Click_2(object sender, EventArgs e) // back button
         {
-           
-                Customer_s_View Customer = new Customer_s_View();
-                Customer.Show();
-                Visible = false; 
+
+            Customer_s_View Customer = new Customer_s_View();
+            Customer.Show();
+            Visible = false;
         }
 
         private void guna2Button3_Click(object sender, EventArgs e) // home button
@@ -210,7 +210,7 @@ namespace _Project_III_GUI
         }
 
         // Inside the current page class
-         private Waiter_s_View Waiter_s_view = new Waiter_s_View();
+        private Waiter_s_View Waiter_s_view = new Waiter_s_View();
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {

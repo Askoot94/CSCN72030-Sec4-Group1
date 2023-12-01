@@ -14,7 +14,7 @@ namespace _Project_III_GUI
     public partial class TableA1ChefView : Form
     {
         public TableA1 Table { get; set; }
-
+        Order tableOrder = new Order("TableA1");
         public TableA1ChefView()
         {
             InitializeComponent();

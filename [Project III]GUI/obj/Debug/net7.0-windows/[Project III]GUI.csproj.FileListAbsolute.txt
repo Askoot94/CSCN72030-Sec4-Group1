@@ -27,3 +27,29 @@ D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III
 D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.genruntimeconfig.cache
 D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\ref\[Project III]GUI.dll
 D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\Files\testing.json
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.Chef_s_View.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.Customer_s_View.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.Mainmenu.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA1ChefView.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA2.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA2ChefView.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA3.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA3ChefView.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA4.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA4ChefView.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA5.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA5ChefView.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA6.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA6ChefView.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableB1.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableB1ChefView.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableB2.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableB2ChefView.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableB3.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableB3ChefView.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableC1.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableC1ChefView.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableC2.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableC2ChefView.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableC3.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableC3ChefView.resources

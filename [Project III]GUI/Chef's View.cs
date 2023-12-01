@@ -11,8 +11,10 @@ using System.Windows.Forms;
 
 namespace _Project_III_GUI
 {
+    
     public partial class Chef_s_View : Form
     {
+        
         public Chef_s_View()
         {
             InitializeComponent();

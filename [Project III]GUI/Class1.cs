@@ -118,7 +118,7 @@ namespace _Project_III_GUI
         }
     }
 
-    internal class Order
+    public class Order
     {
         private string TableName;
         private int Dishes = 0;
