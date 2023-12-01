@@ -1,0 +1,20 @@
+[
+  {
+    "item_id": 1,
+    "name": "Burger",
+    "price": 10.99,
+    "quantity": 1
+  },
+  {
+    "item_id": 2,
+    "name": "Shake",
+    "price": 4.99,
+    "quantity": 2
+  },
+  {
+    "item_id": 3,
+    "name": "Salad",
+    "price": 2.99,
+    "quantity": 3
+  }
+]

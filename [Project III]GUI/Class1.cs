@@ -131,12 +131,8 @@ namespace _Project_III_GUI
             options.PropertyNameCaseInsensitive = false;
 
             TableName = Table;
+            //Open the File to be read
             string FileName = "./Files/" + TableName + ".json";
-            //Open the File to be read if it doesn't exist create it.
-            if (!File.Exists(FileName))
-            {
-                using FileStream temp = File.Create(FileName); ;
-            }
 
             using (StreamReader r = new StreamReader(FileName))
             {
@@ -155,14 +151,11 @@ namespace _Project_III_GUI
                 //If the jsonfile is empty or didnt' exist, treat this order objects as a fresh object.
                 this.Dishes = 0;
                 Food = new List<FoodItem>(6);
-            }
-            else
-            {
-                //Update the number of unique dishes in the order
-                this.Dishes = Food.Count;
+                return;
             }
 
-            
+            //Update the number of unique dishes in the order
+            this.Dishes = Food.Count;     
             return;
 
         }
@@ -177,9 +170,9 @@ namespace _Project_III_GUI
             Food.Add(Creation);
             Dishes++;
         }
-        public void AddItem(string name, float price, int Quantity)
+        public void AddItem(int ItemId, string name, float price, int Quantity)
         {
-            FoodItem Creation = new FoodItem(this.Dishes, name, price, Quantity);
+            FoodItem Creation = new FoodItem(ItemId, name, price, Quantity);
             Food.Add(Creation);
             Dishes++;
         }
