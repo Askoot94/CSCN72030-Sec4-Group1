@@ -225,5 +225,18 @@ namespace _Project_III_GUI
         {
             this.Food[dishNumber].GetInfo(out retrive);
         }
+
+        public string GetDishName(int dishNumber)
+        {
+            return this.Food[dishNumber].name;
+        }
+        public int GetDishID(int dishNumber)
+        {
+            return this.Food[dishNumber].item_id;
+        }
+        public float GetDishPrice(int dishNumber)
+        {
+            return this.Food[dishNumber].price;
+        }
     }
 }
