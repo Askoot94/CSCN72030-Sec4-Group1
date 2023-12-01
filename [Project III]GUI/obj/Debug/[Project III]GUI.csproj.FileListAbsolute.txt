@@ -154,3 +154,18 @@ C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Pr
 C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.CopyComplete
 C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.exe
 C:\Users\giris\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.pdb
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\[Project III]GUI.exe.config
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\[Project III]GUI.exe
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\[Project III]GUI.pdb
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\bin\Debug\Guna.UI2.dll
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.AssemblyReference.cache
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.LoginPage.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.OrderCart.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.Properties.Resources.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.TableA1.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\_Project_III_GUI.Waiter_s_View.resources
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.GenerateResource.cache
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.CoreCompileInputs.cache
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.csproj.CopyComplete
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.exe
+D:\College Files\VS Repos\CSCN72030-Project_3\CSCN72020-Sec4-Group1\[Project III]GUI\obj\Debug\[Project III]GUI.pdb
