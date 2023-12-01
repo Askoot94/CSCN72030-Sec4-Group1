@@ -18,6 +18,10 @@ namespace _Project_III_GUI
             InitializeComponent();
         }
 
+        public void UpdateLabel(string newText)
+        {
+            label2.Text = newText;
+        }
         private void label2_Click(object sender, EventArgs e)
         {
             TableA1ChefView tablea1 = new TableA1ChefView();
@@ -119,6 +123,11 @@ namespace _Project_III_GUI
             TableC3ChefView tablec3 = new TableC3ChefView();
             tablec3.Show();
             Visible = false;
+        }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }

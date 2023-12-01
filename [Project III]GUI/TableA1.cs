@@ -53,5 +53,19 @@ namespace _Project_III_GUI
             textBox7.Text = newText;
         }
 
+        private TableA1ChefView TableA1ChefView = new TableA1ChefView();
+        //private Waiter_s_View Waiter_s_View = new Waiter_s_View();
+        private Chef_s_View Chef_s_View = new Chef_s_View();
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+            textBox7.Text = ("Served");
+            Chef_s_View.UpdateLabel("A1!");
+            Chef_s_View.Show();
+          
+            TableA1ChefView.UpdateTextbox("Served");
+            TableA1ChefView.Show();
+            
+            
+        }
     }
 }

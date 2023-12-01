@@ -74,7 +74,7 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 16F));
             this.tableLayoutPanel1.Location = new System.Drawing.Point(-32, -70);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -89,7 +89,7 @@
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 43.28358F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 56.71642F));
             this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 120F));
-            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 139F));
+            this.tableLayoutPanel2.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 140F));
             this.tableLayoutPanel2.Controls.Add(this.textBox16, 1, 4);
             this.tableLayoutPanel2.Controls.Add(this.label4, 3, 0);
             this.tableLayoutPanel2.Controls.Add(this.textBox15, 3, 3);
@@ -109,7 +109,7 @@
             this.tableLayoutPanel2.Controls.Add(this.textBox8, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.textBox7, 3, 1);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(19, 81);
-            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(2);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 5;
             this.tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45.02924F));
@@ -122,7 +122,7 @@
             // 
             // textBox16
             // 
-            this.textBox16.Location = new System.Drawing.Point(156, 527);
+            this.textBox16.Location = new System.Drawing.Point(155, 527);
             this.textBox16.Name = "textBox16";
             this.textBox16.Size = new System.Drawing.Size(100, 26);
             this.textBox16.TabIndex = 41;
@@ -141,7 +141,7 @@
             // 
             // textBox15
             // 
-            this.textBox15.Location = new System.Drawing.Point(476, 370);
+            this.textBox15.Location = new System.Drawing.Point(475, 370);
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(100, 26);
             this.textBox15.TabIndex = 40;
@@ -151,7 +151,7 @@
             this.label3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(381, 38);
+            this.label3.Location = new System.Drawing.Point(380, 38);
             this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(64, 26);
@@ -160,7 +160,7 @@
             // 
             // textBox14
             // 
-            this.textBox14.Location = new System.Drawing.Point(356, 370);
+            this.textBox14.Location = new System.Drawing.Point(355, 370);
             this.textBox14.Name = "textBox14";
             this.textBox14.Size = new System.Drawing.Size(100, 26);
             this.textBox14.TabIndex = 39;
@@ -170,7 +170,7 @@
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(217, 38);
+            this.label2.Location = new System.Drawing.Point(216, 38);
             this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(71, 26);
@@ -179,7 +179,7 @@
             // 
             // textBox13
             // 
-            this.textBox13.Location = new System.Drawing.Point(156, 370);
+            this.textBox13.Location = new System.Drawing.Point(155, 370);
             this.textBox13.Name = "textBox13";
             this.textBox13.Size = new System.Drawing.Size(100, 26);
             this.textBox13.TabIndex = 38;
@@ -208,7 +208,7 @@
             this.label10.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Times New Roman", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(38, 600);
+            this.label10.Location = new System.Drawing.Point(37, 600);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(77, 26);
             this.label10.TabIndex = 4;
@@ -216,7 +216,7 @@
             // 
             // textBox11
             // 
-            this.textBox11.Location = new System.Drawing.Point(476, 230);
+            this.textBox11.Location = new System.Drawing.Point(475, 230);
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(100, 26);
             this.textBox11.TabIndex = 36;
@@ -230,28 +230,28 @@
             // 
             // textBox10
             // 
-            this.textBox10.Location = new System.Drawing.Point(356, 230);
+            this.textBox10.Location = new System.Drawing.Point(355, 230);
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(100, 26);
             this.textBox10.TabIndex = 35;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(156, 105);
+            this.textBox5.Location = new System.Drawing.Point(155, 105);
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(100, 26);
             this.textBox5.TabIndex = 30;
             // 
             // textBox9
             // 
-            this.textBox9.Location = new System.Drawing.Point(156, 230);
+            this.textBox9.Location = new System.Drawing.Point(155, 230);
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(100, 26);
             this.textBox9.TabIndex = 34;
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(356, 105);
+            this.textBox6.Location = new System.Drawing.Point(355, 105);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 26);
             this.textBox6.TabIndex = 31;
@@ -265,7 +265,7 @@
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(476, 105);
+            this.textBox7.Location = new System.Drawing.Point(475, 105);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(100, 26);
             this.textBox7.TabIndex = 32;
@@ -294,7 +294,7 @@
             this.guna2Panel1.Controls.Add(this.tableLayoutPanel2);
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);
-            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Panel1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Panel1.Name = "guna2Panel1";
             this.guna2Panel1.Size = new System.Drawing.Size(882, 807);
             this.guna2Panel1.TabIndex = 9;
@@ -310,7 +310,7 @@
             this.guna2Button3.ForeColor = System.Drawing.Color.Black;
             this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
             this.guna2Button3.Location = new System.Drawing.Point(154, 0);
-            this.guna2Button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button3.Name = "guna2Button3";
             this.guna2Button3.Size = new System.Drawing.Size(135, 58);
             this.guna2Button3.TabIndex = 28;
@@ -328,7 +328,7 @@
             this.guna2CircleButton3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton3.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton3.Location = new System.Drawing.Point(645, 466);
-            this.guna2CircleButton3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CircleButton3.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CircleButton3.Name = "guna2CircleButton3";
             this.guna2CircleButton3.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton3.Size = new System.Drawing.Size(155, 118);
@@ -346,7 +346,7 @@
             this.guna2Button2.ForeColor = System.Drawing.Color.Black;
             this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
             this.guna2Button2.Location = new System.Drawing.Point(0, 0);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.Size = new System.Drawing.Size(135, 58);
             this.guna2Button2.TabIndex = 27;
@@ -364,7 +364,7 @@
             this.guna2CircleButton2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton2.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton2.Location = new System.Drawing.Point(636, 311);
-            this.guna2CircleButton2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CircleButton2.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CircleButton2.Name = "guna2CircleButton2";
             this.guna2CircleButton2.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton2.Size = new System.Drawing.Size(164, 118);
@@ -382,13 +382,13 @@
             this.guna2CircleButton1.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2CircleButton1.ForeColor = System.Drawing.Color.Black;
             this.guna2CircleButton1.Location = new System.Drawing.Point(636, 189);
-            this.guna2CircleButton1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.guna2CircleButton1.Margin = new System.Windows.Forms.Padding(2);
             this.guna2CircleButton1.Name = "guna2CircleButton1";
             this.guna2CircleButton1.ShadowDecoration.Mode = Guna.UI2.WinForms.Enums.ShadowMode.Circle;
             this.guna2CircleButton1.Size = new System.Drawing.Size(164, 118);
             this.guna2CircleButton1.TabIndex = 3;
             this.guna2CircleButton1.Text = "Served";
-           // this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
+            this.guna2CircleButton1.Click += new System.EventHandler(this.guna2CircleButton1_Click);
             // 
             // label6
             // 
@@ -481,7 +481,7 @@
             this.Controls.Add(this.guna2Panel1);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.tableLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "TableA1";
             this.Text = "TableA1";
             this.Load += new System.EventHandler(this.TableA1_Load);

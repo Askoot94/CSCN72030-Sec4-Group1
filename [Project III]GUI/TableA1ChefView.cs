@@ -13,10 +13,14 @@ namespace _Project_III_GUI
 {
     public partial class TableA1ChefView : Form
     {
+        public TableA1 Table { get; set; }
+
         public TableA1ChefView()
         {
             InitializeComponent();
             guna2CircleButton1.Click += guna2CircleButton1_Click;
+
+
         }
 
         private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
@@ -58,14 +62,22 @@ namespace _Project_III_GUI
 
         }
 
-        private TableA1 TableA1 = new TableA1();
+        //private TableA1 TableA1 = new TableA1();
+        private Waiter_s_View Waiter_s_View = new Waiter_s_View();
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
             textBox7.Text = "Ready";
-            TableA1.UpdateTextbox("Ready");
-            TableA1.Show();
+            Waiter_s_View.UpdateLabel("A1!");
+            Waiter_s_View.Show();
+            
+            //TableA1.UpdateTextbox("Ready");
+           // TableA1.Show();
+                  
         }
-
+        public void UpdateTextbox(string newText)
+        {
+            textBox7.Text = newText;
+        }
         private void label4_Click(object sender, EventArgs e)
         {
 
