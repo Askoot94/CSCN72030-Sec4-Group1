@@ -90,7 +90,7 @@ namespace _Project_III_GUI
             DecrementQuantity(TxtBox1);
         }
 
-        private void IncrementQuantity(Guna.UI2.WinForms.Guna2TextBox textBox)
+        private int IncrementQuantity(Guna.UI2.WinForms.Guna2TextBox textBox)
         {
             // Get the current value from the GunaTextBox
             int currentValue = int.Parse(textBox.Text);
@@ -100,9 +100,11 @@ namespace _Project_III_GUI
 
             // Update the GunaTextBox with the new value
             textBox.Text = currentValue.ToString();
+
+            return currentValue;
         }
 
-        private void DecrementQuantity(Guna.UI2.WinForms.Guna2TextBox textBox)
+        private int DecrementQuantity(Guna.UI2.WinForms.Guna2TextBox textBox)
         {
             // Get the current value from the GunaTextBox
             int currentValue = int.Parse(textBox.Text);
@@ -112,7 +114,38 @@ namespace _Project_III_GUI
 
             // Update the GunaTextBox with the new value
             textBox.Text = currentValue.ToString();
+
+            return currentValue;
         }
+
+        private string GetDescription(Guna.UI2.WinForms.Guna2TextBox textBox)
+        {
+            // Get the current value from the GunaTextBox
+            string description = textBox.Text;
+
+            // Return the description
+            return description;
+        }
+
+        private float GetPrice(Guna.UI2.WinForms.Guna2TextBox textBox)
+        {
+            // Try to parse the current value from the GunaTextBox
+            float price;
+            bool success = float.TryParse(textBox.Text, out price);
+
+            // If the parse operation was not successful, handle the error
+            if (!success)
+            {
+                // For example, you can set a default price
+                price = 0.0f;
+                // Or you can show an error message
+                Console.WriteLine("Error: The price is not a valid number.");
+            }
+
+            // Return the price
+            return price;
+        }
+
 
         private void ButtonMinus2_Click(object sender, EventArgs e)
         {
@@ -186,7 +219,31 @@ namespace _Project_III_GUI
 
         private void guna2Button18_Click(object sender, EventArgs e) // Send button
         {
+            ProcessItem(TxtBox1, guna2TextBox2, guna2TextBox1);
+            ProcessItem(TxtBox2, guna2TextBox5, guna2TextBox6);
+            ProcessItem(TxtBox3, guna2TextBox8, guna2TextBox9);
+            ProcessItem(TxtBox4, guna2TextBox11, guna2TextBox12);
+            ProcessItem(TxtBox5, guna2TextBox14, guna2TextBox15);
+            ProcessItem(TxtBox6, guna2TextBox17, guna2TextBox18);
+            ProcessItem(TxtBox7, guna2TextBox20, guna2TextBox21);
+            ProcessItem(TxtBox8, guna2TextBox23, guna2TextBox24);
 
+            DialogResult iOpen;
+            iOpen = MessageBox.Show("Your Order has been sent. ", "Ordering System", MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void ProcessItem(Guna.UI2.WinForms.Guna2TextBox quantityTextBox, Guna.UI2.WinForms.Guna2TextBox descriptionTextBox, Guna.UI2.WinForms.Guna2TextBox priceTextBox)
+        {
+            int quantity = int.Parse(quantityTextBox.Text);
+            if (quantity > 0)
+            {
+                string description = GetDescription(descriptionTextBox);
+                float price = GetPrice(priceTextBox);
+
+                // Now you can use description, price, and quantity
+                // For example, you can print them:
+                //Console.WriteLine($"Description: {description}, Price: {price}, Quantity: {quantity}");
+            }
         }
 
         private void guna2Button2_Click_2(object sender, EventArgs e) // back button
