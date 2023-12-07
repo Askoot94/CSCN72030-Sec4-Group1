@@ -108,3 +108,57 @@ C:\Users\giris\OneDrive - Conestoga College\repos\Project 3 Group1\[Project III]
 C:\Users\giris\OneDrive - Conestoga College\repos\Project 3 Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.pdb
 C:\Users\giris\OneDrive - Conestoga College\repos\Project 3 Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.genruntimeconfig.cache
 C:\Users\giris\OneDrive - Conestoga College\repos\Project 3 Group1\[Project III]GUI\obj\Debug\net7.0-windows\ref\[Project III]GUI.dll
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\[Project III]GUI.exe
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\[Project III]GUI.dll.config
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\[Project III]GUI.deps.json
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\[Project III]GUI.runtimeconfig.json
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\[Project III]GUI.dll
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\[Project III]GUI.pdb
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\Guna.UI2.dll
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\Microsoft.AspNetCore.SystemWebAdapters.dll
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\System.CodeDom.dll
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\System.Management.dll
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\System.Runtime.Caching.dll
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\runtimes\win\lib\net7.0\System.Management.dll
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\bin\Debug\net7.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.csproj.AssemblyReference.cache
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.Chef_s_View.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.Customer_s_View.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.LoginPage.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.Mainmenu.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.OrderCart.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.Properties.Resources.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA1.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA1ChefView.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA2.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA2ChefView.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA3.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA3ChefView.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA4.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA4ChefView.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA5.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA5ChefView.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA6.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableA6ChefView.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableB1.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableB1ChefView.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableB2.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableB2ChefView.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableB3.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableB3ChefView.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableC1.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableC1ChefView.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableC2.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableC2ChefView.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableC3.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.TableC3ChefView.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.Waiter_s_View.resources
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.csproj.GenerateResource.cache
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.csproj.CoreCompileInputs.cache
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.csproj.CopyComplete
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.dll
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\refint\[Project III]GUI.dll
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.pdb
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.genruntimeconfig.cache
+C:\Users\EthanNguyen\Source\Repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\ref\[Project III]GUI.dll

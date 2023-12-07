@@ -738,24 +738,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\rians\\.nuget\\packages\\": {},
-    "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\EthanNguyen\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\College Files\\VS Repos\\CSCN72030-Project_3\\CSCN72020-Sec4-Group1\\[Project III]GUI\\[Project III]GUI.csproj",
+      "projectUniqueName": "C:\\Users\\EthanNguyen\\Source\\Repos\\CSCN72030-Sec4-Group1\\[Project III]GUI\\[Project III]GUI.csproj",
       "projectName": "[Project III]GUI",
-      "projectPath": "D:\\College Files\\VS Repos\\CSCN72030-Project_3\\CSCN72020-Sec4-Group1\\[Project III]GUI\\[Project III]GUI.csproj",
-      "packagesPath": "C:\\Users\\rians\\.nuget\\packages\\",
-      "outputPath": "D:\\College Files\\VS Repos\\CSCN72030-Project_3\\CSCN72020-Sec4-Group1\\[Project III]GUI\\obj\\",
+      "projectPath": "C:\\Users\\EthanNguyen\\Source\\Repos\\CSCN72030-Sec4-Group1\\[Project III]GUI\\[Project III]GUI.csproj",
+      "packagesPath": "C:\\Users\\EthanNguyen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\EthanNguyen\\Source\\Repos\\CSCN72030-Sec4-Group1\\[Project III]GUI\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\rians\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\EthanNguyen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -821,7 +816,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.304\\RuntimeIdentifierGraph.json"
       }
     }
   }
