@@ -190,15 +190,15 @@ namespace _Project_III_GUI
                 if (Creation.name == FoodItem.name)
                 {
                     AdjustAmountOfItem(FoodItem.item_id, Creation.quantity);
+                    return;
                 }
-                else
-                {
-                    Food.Add(Creation);
-                    Dishes++;
-                }
+                
             }
-           
             
+               Food.Add(Creation);
+               Dishes++;
+            
+
         }
         public void SaveToFile()
         {
