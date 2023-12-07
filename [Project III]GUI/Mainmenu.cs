@@ -288,6 +288,11 @@ namespace _Project_III_GUI
                 Waiter_s_view.Show();
             }
         }
+
+        private void guna2TextBox14_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
