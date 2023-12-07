@@ -28,8 +28,8 @@ namespace _Project_III_GUI
             //Application.Run(new OrderCart());
             // Billing system
 
-            TableA1 tableA1 = new TableA1();
-            TableA1ChefView TableA1chefView = new TableA1ChefView();
+            TableA1 tableA1 = new TableA1("TableA1");
+            TableA1ChefView TableA1chefView = new TableA1ChefView("TableA1");
             Waiter_s_View Waiter_s_View = new Waiter_s_View();
             Chef_s_View Chef_s_View = new Chef_s_View();
 

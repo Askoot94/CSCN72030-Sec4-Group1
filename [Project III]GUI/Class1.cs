@@ -166,6 +166,11 @@ namespace _Project_III_GUI
             return;
 
         }
+        ~Order()
+        {
+            this.SaveToFile();
+
+        }
         public int GetNumberofDishes()
         {
             return Dishes;
@@ -180,8 +185,20 @@ namespace _Project_III_GUI
         public void AddItem(string name, float price, int Quantity)
         {
             FoodItem Creation = new FoodItem(this.Dishes, name, price, Quantity);
-            Food.Add(Creation);
-            Dishes++;
+            foreach(var FoodItem in Food)
+            {
+                if (Creation.name == FoodItem.name)
+                {
+                    AdjustAmountOfItem(FoodItem.item_id, Creation.quantity);
+                }
+                else
+                {
+                    Food.Add(Creation);
+                    Dishes++;
+                }
+            }
+           
+            
         }
         public void SaveToFile()
         {
@@ -230,9 +247,9 @@ namespace _Project_III_GUI
         {
             return this.Food[dishNumber].name;
         }
-        public int GetDishID(int dishNumber)
+        public int GetDishQuantity(int dishNumber)
         {
-            return this.Food[dishNumber].item_id;
+            return this.Food[dishNumber].quantity;
         }
         public float GetDishPrice(int dishNumber)
         {

@@ -49,7 +49,7 @@ namespace _Project_III_GUI
 
         private void label2_Click(object sender, EventArgs e) // Table A1 
         {
-            TableA1 tablea1 = new TableA1();
+            TableA1 tablea1 = new TableA1("TableA1");
             tablea1.Show();
             Visible = false;
         } 

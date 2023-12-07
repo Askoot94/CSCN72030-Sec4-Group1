@@ -13,14 +13,51 @@ namespace _Project_III_GUI
 {
     public partial class TableA1ChefView : Form
     {
-        public TableA1 Table { get; set; }
-        Order tableOrder = new Order("TableA1");
-        public TableA1ChefView()
+        public string Table { get; set; }
+        public TableA1ChefView(string filename)
         {
             InitializeComponent();
             guna2CircleButton1.Click += guna2CircleButton1_Click;
+            Table = filename;
+            Order file = new Order(filename);
+            if(file.GetNumberofDishes() == 1)
+            {
+                string buffer;
+                buffer = file.GetDishQuantity(0).ToString();
+                textBox4.Text = buffer;
+                textBox5.Text = file.GetDishName(0);
+            }
+            else if(file.GetNumberofDishes() == 2)
+            {
+                string buffer;
+                buffer = file.GetDishQuantity(0).ToString();
+                textBox4.Text = buffer;
+                textBox5.Text = file.GetDishName(0);
 
+                buffer = file.GetDishQuantity(1).ToString();
+                textBox8.Text = buffer;
+                textBox9.Text = file.GetDishName(1);
+            }
+            else if(file.GetNumberofDishes() == 3)
+            {
+                string buffer;
+                buffer = file.GetDishQuantity(0).ToString();
+                textBox4.Text = buffer;
+                textBox5.Text = file.GetDishName(0);
 
+                buffer = file.GetDishQuantity(1).ToString();
+                textBox8.Text = buffer;
+                textBox9.Text = file.GetDishName(1);
+
+                buffer = file.GetDishQuantity(2).ToString();
+                textBox12.Text = buffer;
+                textBox13.Text = file.GetDishName(2);
+            }
+            else
+            {
+                return;
+            }
+            
         }
 
         private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
@@ -69,10 +106,10 @@ namespace _Project_III_GUI
             textBox7.Text = "Ready";
             Waiter_s_View.UpdateLabel("A1!");
             Waiter_s_View.Show();
-            
+
             //TableA1.UpdateTextbox("Ready");
-           // TableA1.Show();
-                  
+            // TableA1.Show();
+
         }
         public void UpdateTextbox(string newText)
         {

@@ -20,12 +20,12 @@ namespace _Project_III_GUI
 {
     public partial class Mainmenu : Form
     {
-        public Order tableOrder;
+        public string tableOrder;
 
         public Mainmenu(string table)
         {
-            Order tableOrder = new Order(table);
             InitializeComponent();
+            tableOrder = table;
         }
 
         private void Mainmenu_Load(object sender, EventArgs e)
@@ -234,6 +234,7 @@ namespace _Project_III_GUI
 
         private void ProcessItem(Guna.UI2.WinForms.Guna2TextBox quantityTextBox, Guna.UI2.WinForms.Guna2TextBox descriptionTextBox, Guna.UI2.WinForms.Guna2TextBox priceTextBox)
         {
+            Order orderFile = new Order(tableOrder);
             int quantity = int.Parse(quantityTextBox.Text);
             if (quantity > 0)
             {
@@ -242,8 +243,9 @@ namespace _Project_III_GUI
 
                 // Now you can use description, price, and quantity
                 // For example, you can print them:
-                //Console.WriteLine($"Description: {description}, Price: {price}, Quantity: {quantity}");
+                orderFile.AddItem(description, price, quantity);
             }
+            orderFile.SaveToFile();
         }
 
         private void guna2Button2_Click_2(object sender, EventArgs e) // back button
