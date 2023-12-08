@@ -55,5 +55,66 @@ namespace _Project_III_GUI
             Mainmenu.Show();
             Visible = false;
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            Mainmenu Mainmenu = new Mainmenu("TableA3");
+            Mainmenu.Show();
+            Visible = false;
+        }
+        private void label5_Click(object sender, EventArgs e)
+        {
+            Mainmenu Mainmenu = new Mainmenu("TableA4");
+            Mainmenu.Show();
+            Visible = false;
+        }
+        private void label6_Click(object sender, EventArgs e)
+        {
+            Mainmenu Mainmenu = new Mainmenu("TableB1");
+            Mainmenu.Show();
+            Visible = false;
+        }
+        private void label7_Click(object sender, EventArgs e)
+        {
+            Mainmenu Mainmenu = new Mainmenu("TableC1");
+            Mainmenu.Show();
+            Visible = false;
+        }
+        private void label8_Click(object sender, EventArgs e)
+        {
+            Mainmenu Mainmenu = new Mainmenu("TableA5");
+            Mainmenu.Show();
+            Visible = false;
+        }
+        private void label9_Click(object sender, EventArgs e)
+        {
+            Mainmenu Mainmenu = new Mainmenu("TableB2");
+            Mainmenu.Show();
+            Visible = false;
+        }
+        private void label10_Click(object sender, EventArgs e)
+        {
+            Mainmenu Mainmenu = new Mainmenu("TableC2");
+            Mainmenu.Show();
+            Visible = false;
+        }
+        private void label11_Click(object sender, EventArgs e)
+        {
+            Mainmenu Mainmenu = new Mainmenu("TableA6");
+            Mainmenu.Show();
+            Visible = false;
+        }
+        private void label12_Click(object sender, EventArgs e)
+        {
+            Mainmenu Mainmenu = new Mainmenu("TableB3");
+            Mainmenu.Show();
+            Visible = false;
+        }
+        private void label13_Click(object sender, EventArgs e)
+        {
+            Mainmenu Mainmenu = new Mainmenu("TableC3");
+            Mainmenu.Show();
+            Visible = false;
+        }
     }
 }

@@ -23,8 +23,9 @@ namespace _Project_III_GUI
         public string tableOrder;
 
         public Mainmenu(string table)
-        {
+        {            
             InitializeComponent();
+            //label5.Text = table;
             tableOrder = table;
         }
 

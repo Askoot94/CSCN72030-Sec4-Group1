@@ -3,12 +3,12 @@
     "item_id": 0,
     "name": "Green Dragon",
     "price": 12.99,
-    "quantity": 2
+    "quantity": 5
   },
   {
     "item_id": 1,
     "name": "Black Dragon",
     "price": 12.99,
-    "quantity": 1
+    "quantity": 6
   }
 ]

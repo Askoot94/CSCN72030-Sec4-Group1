@@ -28,272 +28,281 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Customer_s_View));
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.panel1.SuspendLayout();
-            this.SuspendLayout();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            label1 = new System.Windows.Forms.Label();
+            panel1 = new System.Windows.Forms.Panel();
+            label13 = new System.Windows.Forms.Label();
+            label12 = new System.Windows.Forms.Label();
+            label11 = new System.Windows.Forms.Label();
+            label10 = new System.Windows.Forms.Label();
+            label9 = new System.Windows.Forms.Label();
+            label8 = new System.Windows.Forms.Label();
+            label7 = new System.Windows.Forms.Label();
+            label6 = new System.Windows.Forms.Label();
+            label5 = new System.Windows.Forms.Label();
+            label4 = new System.Windows.Forms.Label();
+            label3 = new System.Windows.Forms.Label();
+            label2 = new System.Windows.Forms.Label();
+            guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
+            guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
+            panel1.SuspendLayout();
+            SuspendLayout();
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Times New Roman", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.LightCoral;
-            this.label1.Location = new System.Drawing.Point(564, 9);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(633, 81);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Ethan\'s Restaurant";
+            label1.AutoSize = true;
+            label1.BackColor = System.Drawing.Color.Transparent;
+            label1.Font = new System.Drawing.Font("Times New Roman", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            label1.ForeColor = System.Drawing.Color.LightCoral;
+            label1.Location = new System.Drawing.Point(439, 7);
+            label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label1.Name = "label1";
+            label1.Size = new System.Drawing.Size(420, 55);
+            label1.TabIndex = 4;
+            label1.Text = "Ethan's Restaurant";
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.label13);
-            this.panel1.Controls.Add(this.label12);
-            this.panel1.Controls.Add(this.label11);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.ForeColor = System.Drawing.Color.LightCoral;
-            this.panel1.Location = new System.Drawing.Point(265, 158);
-            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(993, 707);
-            this.panel1.TabIndex = 5;
-            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
+            panel1.BackColor = System.Drawing.Color.Transparent;
+            panel1.Controls.Add(label13);
+            panel1.Controls.Add(label12);
+            panel1.Controls.Add(label11);
+            panel1.Controls.Add(label10);
+            panel1.Controls.Add(label9);
+            panel1.Controls.Add(label8);
+            panel1.Controls.Add(label7);
+            panel1.Controls.Add(label6);
+            panel1.Controls.Add(label5);
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(label2);
+            panel1.ForeColor = System.Drawing.Color.LightCoral;
+            panel1.Location = new System.Drawing.Point(206, 118);
+            panel1.Margin = new System.Windows.Forms.Padding(2);
+            panel1.Name = "panel1";
+            panel1.Size = new System.Drawing.Size(772, 530);
+            panel1.TabIndex = 5;
+            panel1.Paint += panel1_Paint;
             // 
             // label13
             // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.Transparent;
-            this.label13.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.LightCoral;
-            this.label13.Location = new System.Drawing.Point(476, 460);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(56, 37);
-            this.label13.TabIndex = 11;
-            this.label13.Text = "C3";
+            label13.AutoSize = true;
+            label13.BackColor = System.Drawing.Color.Transparent;
+            label13.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label13.ForeColor = System.Drawing.Color.LightCoral;
+            label13.Location = new System.Drawing.Point(370, 345);
+            label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label13.Name = "label13";
+            label13.Size = new System.Drawing.Size(38, 25);
+            label13.TabIndex = 11;
+            label13.Text = "C3";
             // 
             // label12
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.Transparent;
-            this.label12.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.LightCoral;
-            this.label12.Location = new System.Drawing.Point(476, 326);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(56, 37);
-            this.label12.TabIndex = 10;
-            this.label12.Text = "B3";
+            label12.AutoSize = true;
+            label12.BackColor = System.Drawing.Color.Transparent;
+            label12.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label12.ForeColor = System.Drawing.Color.LightCoral;
+            label12.Location = new System.Drawing.Point(370, 244);
+            label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label12.Name = "label12";
+            label12.Size = new System.Drawing.Size(37, 25);
+            label12.TabIndex = 10;
+            label12.Text = "B3";
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.LightCoral;
-            this.label11.Location = new System.Drawing.Point(475, 203);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(57, 37);
-            this.label11.TabIndex = 9;
-            this.label11.Text = "A6";
+            label11.AutoSize = true;
+            label11.BackColor = System.Drawing.Color.Transparent;
+            label11.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label11.ForeColor = System.Drawing.Color.LightCoral;
+            label11.Location = new System.Drawing.Point(369, 152);
+            label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label11.Name = "label11";
+            label11.Size = new System.Drawing.Size(39, 25);
+            label11.TabIndex = 9;
+            label11.Text = "A6";
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.Transparent;
-            this.label10.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.LightCoral;
-            this.label10.Location = new System.Drawing.Point(282, 460);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(56, 37);
-            this.label10.TabIndex = 8;
-            this.label10.Text = "C2";
+            label10.AutoSize = true;
+            label10.BackColor = System.Drawing.Color.Transparent;
+            label10.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label10.ForeColor = System.Drawing.Color.LightCoral;
+            label10.Location = new System.Drawing.Point(219, 345);
+            label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label10.Name = "label10";
+            label10.Size = new System.Drawing.Size(38, 25);
+            label10.TabIndex = 8;
+            label10.Text = "C2";
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.LightCoral;
-            this.label9.Location = new System.Drawing.Point(282, 326);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(56, 37);
-            this.label9.TabIndex = 7;
-            this.label9.Text = "B2";
+            label9.AutoSize = true;
+            label9.BackColor = System.Drawing.Color.Transparent;
+            label9.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label9.ForeColor = System.Drawing.Color.LightCoral;
+            label9.Location = new System.Drawing.Point(219, 244);
+            label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label9.Name = "label9";
+            label9.Size = new System.Drawing.Size(37, 25);
+            label9.TabIndex = 7;
+            label9.Text = "B2";
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.ForeColor = System.Drawing.Color.LightCoral;
-            this.label8.Location = new System.Drawing.Point(282, 203);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(57, 37);
-            this.label8.TabIndex = 6;
-            this.label8.Text = "A5";
+            label8.AutoSize = true;
+            label8.BackColor = System.Drawing.Color.Transparent;
+            label8.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label8.ForeColor = System.Drawing.Color.LightCoral;
+            label8.Location = new System.Drawing.Point(219, 152);
+            label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label8.Name = "label8";
+            label8.Size = new System.Drawing.Size(39, 25);
+            label8.TabIndex = 6;
+            label8.Text = "A5";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.ForeColor = System.Drawing.Color.LightCoral;
-            this.label7.Location = new System.Drawing.Point(104, 460);
-            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(56, 37);
-            this.label7.TabIndex = 5;
-            this.label7.Text = "C1";
+            label7.AutoSize = true;
+            label7.BackColor = System.Drawing.Color.Transparent;
+            label7.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label7.ForeColor = System.Drawing.Color.LightCoral;
+            label7.Location = new System.Drawing.Point(81, 345);
+            label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label7.Name = "label7";
+            label7.Size = new System.Drawing.Size(38, 25);
+            label7.TabIndex = 5;
+            label7.Text = "C1";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.LightCoral;
-            this.label6.Location = new System.Drawing.Point(104, 326);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(56, 37);
-            this.label6.TabIndex = 4;
-            this.label6.Text = "B1";
+            label6.AutoSize = true;
+            label6.BackColor = System.Drawing.Color.Transparent;
+            label6.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label6.ForeColor = System.Drawing.Color.LightCoral;
+            label6.Location = new System.Drawing.Point(81, 244);
+            label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label6.Name = "label6";
+            label6.Size = new System.Drawing.Size(37, 25);
+            label6.TabIndex = 4;
+            label6.Text = "B1";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.LightCoral;
-            this.label5.Location = new System.Drawing.Point(104, 203);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(57, 37);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "A4";
+            label5.AutoSize = true;
+            label5.BackColor = System.Drawing.Color.Transparent;
+            label5.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label5.ForeColor = System.Drawing.Color.LightCoral;
+            label5.Location = new System.Drawing.Point(81, 152);
+            label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label5.Name = "label5";
+            label5.Size = new System.Drawing.Size(39, 25);
+            label5.TabIndex = 3;
+            label5.Text = "A4";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.LightCoral;
-            this.label4.Location = new System.Drawing.Point(475, 81);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(57, 37);
-            this.label4.TabIndex = 2;
-            this.label4.Text = "A3";
+            label4.AutoSize = true;
+            label4.BackColor = System.Drawing.Color.Transparent;
+            label4.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label4.ForeColor = System.Drawing.Color.LightCoral;
+            label4.Location = new System.Drawing.Point(369, 61);
+            label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label4.Name = "label4";
+            label4.Size = new System.Drawing.Size(39, 25);
+            label4.TabIndex = 2;
+            label4.Text = "A3";
+            label4.Click += label4_Click;
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.LightCoral;
-            this.label3.Location = new System.Drawing.Point(282, 81);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(57, 37);
-            this.label3.TabIndex = 1;
-            this.label3.Text = "A2";
-            this.label3.Click += new System.EventHandler(this.label3_Click);
+            label3.AutoSize = true;
+            label3.BackColor = System.Drawing.Color.Transparent;
+            label3.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label3.ForeColor = System.Drawing.Color.LightCoral;
+            label3.Location = new System.Drawing.Point(219, 61);
+            label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label3.Name = "label3";
+            label3.Size = new System.Drawing.Size(39, 25);
+            label3.TabIndex = 1;
+            label3.Text = "A2";
+            label3.Click += label3_Click;
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.LightCoral;
-            this.label2.Location = new System.Drawing.Point(104, 81);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(57, 37);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "A1";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
+            label2.AutoSize = true;
+            label2.BackColor = System.Drawing.Color.Transparent;
+            label2.Font = new System.Drawing.Font("Times New Roman", 16.125F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            label2.ForeColor = System.Drawing.Color.LightCoral;
+            label2.Location = new System.Drawing.Point(81, 61);
+            label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            label2.Name = "label2";
+            label2.Size = new System.Drawing.Size(39, 25);
+            label2.TabIndex = 0;
+            label2.Text = "A1";
+            label2.Click += label2_Click;
             // 
             // guna2Button3
             // 
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button3.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button3.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button3.Image")));
-            this.guna2Button3.Location = new System.Drawing.Point(152, -3);
-            this.guna2Button3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(135, 58);
-            this.guna2Button3.TabIndex = 28;
-            this.guna2Button3.Text = "Home";
-            this.guna2Button3.Click += new System.EventHandler(this.guna2Button3_Click);
+            guna2Button3.CustomizableEdges = customizableEdges1;
+            guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            guna2Button3.FillColor = System.Drawing.Color.Transparent;
+            guna2Button3.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            guna2Button3.ForeColor = System.Drawing.Color.Black;
+            guna2Button3.Image = (System.Drawing.Image)resources.GetObject("guna2Button3.Image");
+            guna2Button3.Location = new System.Drawing.Point(118, -2);
+            guna2Button3.Margin = new System.Windows.Forms.Padding(2);
+            guna2Button3.Name = "guna2Button3";
+            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2Button3.Size = new System.Drawing.Size(105, 44);
+            guna2Button3.TabIndex = 28;
+            guna2Button3.Text = "Home";
+            guna2Button3.Click += guna2Button3_Click;
             // 
             // guna2Button2
             // 
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.Transparent;
-            this.guna2Button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button2.ForeColor = System.Drawing.Color.Black;
-            this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
-            this.guna2Button2.Location = new System.Drawing.Point(-2, -3);
-            this.guna2Button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(135, 58);
-            this.guna2Button2.TabIndex = 27;
-            this.guna2Button2.Text = "Back";
-            this.guna2Button2.Click += new System.EventHandler(this.guna2Button2_Click);
+            guna2Button2.CustomizableEdges = customizableEdges3;
+            guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
+            guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(141, 141, 141);
+            guna2Button2.FillColor = System.Drawing.Color.Transparent;
+            guna2Button2.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            guna2Button2.ForeColor = System.Drawing.Color.Black;
+            guna2Button2.Image = (System.Drawing.Image)resources.GetObject("guna2Button2.Image");
+            guna2Button2.Location = new System.Drawing.Point(-2, -2);
+            guna2Button2.Margin = new System.Windows.Forms.Padding(2);
+            guna2Button2.Name = "guna2Button2";
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            guna2Button2.Size = new System.Drawing.Size(105, 44);
+            guna2Button2.TabIndex = 27;
+            guna2Button2.Text = "Back";
+            guna2Button2.Click += guna2Button2_Click;
             // 
             // Customer_s_View
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1918, 1077);
-            this.Controls.Add(this.guna2Button3);
-            this.Controls.Add(this.guna2Button2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.label1);
-            this.Name = "Customer_s_View";
-            this.Text = "Customer_s_View";
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(1492, 796);
+            Controls.Add(guna2Button3);
+            Controls.Add(guna2Button2);
+            Controls.Add(panel1);
+            Controls.Add(label1);
+            Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            Name = "Customer_s_View";
+            Text = "Customer_s_View";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
