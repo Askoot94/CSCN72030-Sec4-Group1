@@ -26,7 +26,7 @@ namespace _Project_III_GUI
         {
             InitializeComponent();
 
-            tableOrder = table;
+            tableOrder = "Table A2";
         }
 
         private void Mainmenu_Load(object sender, EventArgs e)

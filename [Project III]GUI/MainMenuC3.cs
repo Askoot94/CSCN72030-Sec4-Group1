@@ -18,7 +18,7 @@ namespace _Project_III_GUI
         {
             InitializeComponent();
 
-            tableOrder = table;
+            tableOrder = "Table C3";
         }
 
 
@@ -28,6 +28,11 @@ namespace _Project_III_GUI
             label5.Text = tableOrder;
         }
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e) // Back
         {
 
         }

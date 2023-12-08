@@ -12,9 +12,25 @@ namespace _Project_III_GUI
 {
     public partial class MainMenuB3 : Form
     {
-        public MainMenuB3()
+        public string tableOrder;
+
+        public MainMenuB3(string table)
         {
             InitializeComponent();
+
+            tableOrder = table;
+        }
+
+
+
+        private void MainMenuB3_Load(object sender, EventArgs e)
+        {
+            label5.Text = tableOrder;
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
