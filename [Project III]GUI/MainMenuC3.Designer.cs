@@ -623,6 +623,7 @@
             guna2Button3.Size = new System.Drawing.Size(180, 88);
             guna2Button3.TabIndex = 39;
             guna2Button3.Text = "Home";
+            guna2Button3.Click += guna2Button3_Click;
             // 
             // guna2ComboBox1
             // 

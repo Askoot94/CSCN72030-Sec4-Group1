@@ -34,7 +34,21 @@ namespace _Project_III_GUI
 
         private void guna2Button2_Click(object sender, EventArgs e) // Back
         {
+            Customer_s_View Customer = new Customer_s_View();
+            Customer.Show();
+            Visible = false;
+        }
 
+        private void guna2Button3_Click(object sender, EventArgs e) // Home
+        {
+            DialogResult iOpen;
+            iOpen = MessageBox.Show("You want to go back to the login page?", "Ordering System", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
+            if (iOpen == DialogResult.Yes)
+            {
+                LoginPage Home = new LoginPage();
+                Home.Show();
+                Visible = false;
+            }
         }
     }
 }
