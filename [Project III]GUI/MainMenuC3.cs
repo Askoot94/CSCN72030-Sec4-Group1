@@ -59,7 +59,14 @@ namespace _Project_III_GUI
 
         private void guna2Button19_Click(object sender, EventArgs e) // Order Status
         {
+            DialogResult iOpen;
+            iOpen = MessageBox.Show("Request has been sent to the waiter to inform you the status of food... ", "Ordering System", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            if (iOpen == DialogResult.OK)
+            {
 
+                Waiter_s_view.UpdateLabelC3("C3 !");
+                Waiter_s_view.Show();
+            }
         }
 
         private void guna2Button1_Click(object sender, EventArgs e) // Call server
