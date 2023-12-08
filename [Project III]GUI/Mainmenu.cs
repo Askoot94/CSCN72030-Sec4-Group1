@@ -293,6 +293,16 @@ namespace _Project_III_GUI
         {
 
         }
+
+        private void guna2CirclePictureBox1_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CirclePictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 
