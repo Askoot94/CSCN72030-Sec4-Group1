@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\College Files\\VS Repos\\CSCN72030-Project_3\\CSCN72020-Sec4-Group1\\[Project III]GUI\\[Project III]GUI.csproj": {}
+    "C:\\Users\\giris\\OneDrive - Conestoga College\\repos\\Group 1 Project 3\\[Project III]GUI\\[Project III]GUI.csproj": {}
   },
   "projects": {
-    "D:\\College Files\\VS Repos\\CSCN72030-Project_3\\CSCN72020-Sec4-Group1\\[Project III]GUI\\[Project III]GUI.csproj": {
+    "C:\\Users\\giris\\OneDrive - Conestoga College\\repos\\Group 1 Project 3\\[Project III]GUI\\[Project III]GUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\College Files\\VS Repos\\CSCN72030-Project_3\\CSCN72020-Sec4-Group1\\[Project III]GUI\\[Project III]GUI.csproj",
+        "projectUniqueName": "C:\\Users\\giris\\OneDrive - Conestoga College\\repos\\Group 1 Project 3\\[Project III]GUI\\[Project III]GUI.csproj",
         "projectName": "[Project III]GUI",
-        "projectPath": "D:\\College Files\\VS Repos\\CSCN72030-Project_3\\CSCN72020-Sec4-Group1\\[Project III]GUI\\[Project III]GUI.csproj",
-        "packagesPath": "C:\\Users\\rians\\.nuget\\packages\\",
-        "outputPath": "D:\\College Files\\VS Repos\\CSCN72030-Project_3\\CSCN72020-Sec4-Group1\\[Project III]GUI\\obj\\",
+        "projectPath": "C:\\Users\\giris\\OneDrive - Conestoga College\\repos\\Group 1 Project 3\\[Project III]GUI\\[Project III]GUI.csproj",
+        "packagesPath": "C:\\Users\\giris\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\giris\\OneDrive - Conestoga College\\repos\\Group 1 Project 3\\[Project III]GUI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "D:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\rians\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\giris\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -84,7 +85,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
