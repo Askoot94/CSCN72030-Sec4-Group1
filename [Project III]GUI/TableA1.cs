@@ -18,49 +18,32 @@ namespace _Project_III_GUI
         {
             InitializeComponent();
             filename = Table;
-            Order file = new Order(filename);
-            if (file.GetNumberofDishes() == 1)
-            {
-                string buffer;
-                buffer = file.GetDishQuantity(0).ToString();
-                textBox4.Text = buffer;
-                textBox5.Text = file.GetDishName(0);
-            }
-            else if (file.GetNumberofDishes() == 2)
-            {
-                string buffer;
-                buffer = file.GetDishQuantity(0).ToString();
-                textBox4.Text = buffer;
-                textBox5.Text = file.GetDishName(0);
-
-                buffer = file.GetDishQuantity(1).ToString();
-                textBox8.Text = buffer;
-                textBox9.Text = file.GetDishName(1);
-            }
-            else if (file.GetNumberofDishes() == 3)
-            {
-                string buffer;
-                buffer = file.GetDishQuantity(0).ToString();
-                textBox4.Text = buffer;
-                textBox5.Text = file.GetDishName(0);
-
-                buffer = file.GetDishQuantity(1).ToString();
-                textBox8.Text = buffer;
-                textBox9.Text = file.GetDishName(1);
-
-                buffer = file.GetDishQuantity(2).ToString();
-                textBox12.Text = buffer;
-                textBox13.Text = file.GetDishName(2);
-            }
-            else
-            {
-                return;
-            }
+            
         }
 
         private void TableA1_Load(object sender, EventArgs e)
         {
-
+            Order file = new Order(filename);
+            string buffer;
+            if (file.GetNumberofDishes() >= 1)
+            {
+                buffer = file.GetDishQuantity(0).ToString();
+                textBox4.Text = buffer;
+                textBox5.Text = file.GetDishName(0);
+            }
+            if (file.GetNumberofDishes() >= 2)
+            {
+                buffer = file.GetDishQuantity(1).ToString();
+                textBox8.Text = buffer;
+                textBox9.Text = file.GetDishName(1);
+            }
+            if (file.GetNumberofDishes() >= 3)
+            {
+                buffer = file.GetDishQuantity(2).ToString();
+                textBox12.Text = buffer;
+                textBox13.Text = file.GetDishName(2);
+            }
+            
         }
 
         private void guna2Button2_Click(object sender, EventArgs e) // back butonn

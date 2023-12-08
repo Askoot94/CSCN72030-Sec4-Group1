@@ -23,15 +23,15 @@ namespace _Project_III_GUI
         public string tableOrder;
 
         public Mainmenu(string table)
-        {            
+        {
             InitializeComponent();
-            //label5.Text = table;
+
             tableOrder = table;
         }
 
         private void Mainmenu_Load(object sender, EventArgs e)
         {
-
+            label5.Text = tableOrder;
         }
 
 

@@ -116,5 +116,10 @@ namespace _Project_III_GUI
             Mainmenu.Show();
             Visible = false;
         }
+
+        private void label8_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

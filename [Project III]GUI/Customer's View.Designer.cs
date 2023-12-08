@@ -28,11 +28,11 @@
         /// </summary>
         private void InitializeComponent()
         {
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Customer_s_View));
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             label1 = new System.Windows.Forms.Label();
             panel1 = new System.Windows.Forms.Panel();
             label13 = new System.Windows.Forms.Label();
@@ -100,6 +100,7 @@
             label13.Size = new System.Drawing.Size(38, 25);
             label13.TabIndex = 11;
             label13.Text = "C3";
+            label13.Click += label13_Click;
             // 
             // label12
             // 
@@ -113,6 +114,7 @@
             label12.Size = new System.Drawing.Size(37, 25);
             label12.TabIndex = 10;
             label12.Text = "B3";
+            label12.Click += label12_Click;
             // 
             // label11
             // 
@@ -126,6 +128,7 @@
             label11.Size = new System.Drawing.Size(39, 25);
             label11.TabIndex = 9;
             label11.Text = "A6";
+            label11.Click += label11_Click;
             // 
             // label10
             // 
@@ -139,6 +142,7 @@
             label10.Size = new System.Drawing.Size(38, 25);
             label10.TabIndex = 8;
             label10.Text = "C2";
+            label10.Click += label10_Click;
             // 
             // label9
             // 
@@ -152,6 +156,7 @@
             label9.Size = new System.Drawing.Size(37, 25);
             label9.TabIndex = 7;
             label9.Text = "B2";
+            label9.Click += label9_Click;
             // 
             // label8
             // 
@@ -165,6 +170,7 @@
             label8.Size = new System.Drawing.Size(39, 25);
             label8.TabIndex = 6;
             label8.Text = "A5";
+            label8.Click += label8_Click;
             // 
             // label7
             // 
@@ -178,6 +184,7 @@
             label7.Size = new System.Drawing.Size(38, 25);
             label7.TabIndex = 5;
             label7.Text = "C1";
+            label7.Click += label7_Click;
             // 
             // label6
             // 
@@ -191,6 +198,7 @@
             label6.Size = new System.Drawing.Size(37, 25);
             label6.TabIndex = 4;
             label6.Text = "B1";
+            label6.Click += label6_Click;
             // 
             // label5
             // 
@@ -249,7 +257,7 @@
             // 
             // guna2Button3
             // 
-            guna2Button3.CustomizableEdges = customizableEdges1;
+            guna2Button3.CustomizableEdges = customizableEdges9;
             guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
@@ -261,7 +269,7 @@
             guna2Button3.Location = new System.Drawing.Point(118, -2);
             guna2Button3.Margin = new System.Windows.Forms.Padding(2);
             guna2Button3.Name = "guna2Button3";
-            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            guna2Button3.ShadowDecoration.CustomizableEdges = customizableEdges10;
             guna2Button3.Size = new System.Drawing.Size(105, 44);
             guna2Button3.TabIndex = 28;
             guna2Button3.Text = "Home";
@@ -269,7 +277,7 @@
             // 
             // guna2Button2
             // 
-            guna2Button2.CustomizableEdges = customizableEdges3;
+            guna2Button2.CustomizableEdges = customizableEdges11;
             guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
             guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
             guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(169, 169, 169);
@@ -281,7 +289,7 @@
             guna2Button2.Location = new System.Drawing.Point(-2, -2);
             guna2Button2.Margin = new System.Windows.Forms.Padding(2);
             guna2Button2.Name = "guna2Button2";
-            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            guna2Button2.ShadowDecoration.CustomizableEdges = customizableEdges12;
             guna2Button2.Size = new System.Drawing.Size(105, 44);
             guna2Button2.TabIndex = 27;
             guna2Button2.Text = "Back";
@@ -296,7 +304,7 @@
             Controls.Add(guna2Button2);
             Controls.Add(panel1);
             Controls.Add(label1);
-            Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            Margin = new System.Windows.Forms.Padding(2);
             Name = "Customer_s_View";
             Text = "Customer_s_View";
             panel1.ResumeLayout(false);
