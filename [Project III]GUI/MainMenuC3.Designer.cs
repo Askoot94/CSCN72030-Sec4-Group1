@@ -981,6 +981,7 @@
             guna2Button19.Size = new System.Drawing.Size(231, 142);
             guna2Button19.TabIndex = 2;
             guna2Button19.Text = "Order Status";
+            guna2Button19.Click += guna2Button19_Click;
             // 
             // guna2Button18
             // 
@@ -1018,6 +1019,7 @@
             guna2Button1.Size = new System.Drawing.Size(231, 92);
             guna2Button1.TabIndex = 0;
             guna2Button1.Text = "Call Server";
+            guna2Button1.Click += guna2Button1_Click;
             // 
             // label5
             // 

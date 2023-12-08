@@ -50,5 +50,22 @@ namespace _Project_III_GUI
                 Visible = false;
             }
         }
+
+        // Inside the current page class
+        private Waiter_s_View Waiter_s_view = new Waiter_s_View();
+
+
+
+
+        private void guna2Button19_Click(object sender, EventArgs e) // Order Status
+        {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e) // Call server
+        {
+            Waiter_s_view.UpdateLabelC3("C3 !");
+            Waiter_s_view.Show();
+        }
     }
 }

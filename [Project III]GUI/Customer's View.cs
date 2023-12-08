@@ -62,12 +62,7 @@ namespace _Project_III_GUI
             MainMenu.Show();
             Visible = false;
         }
-        //private void label5_Click(object sender, EventArgs e)
-        //{
-        //    MainMenuA4 MainMenu = new MainMenuA4("Table A4");
-        //    MainMenu.Show();
-        //    Visible = false;
-        //}
+       
         private void label6_Click(object sender, EventArgs e) // B1
         {
             MainMenuB1 Mainmenu = new MainMenuB1("Table B1");
