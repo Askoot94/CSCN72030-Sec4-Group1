@@ -75,5 +75,140 @@ namespace _Project_III_GUI
             Waiter_s_view.UpdateLabelB2("B2 !");
             Waiter_s_view.Show();
         }
+
+
+        private int IncrementQuantity(Guna.UI2.WinForms.Guna2TextBox textBox)
+        {
+            // Get the current value from the GunaTextBox
+            int currentValue = int.Parse(textBox.Text);
+
+            // Increment the value
+            currentValue++;
+
+            // Update the GunaTextBox with the new value
+            textBox.Text = currentValue.ToString();
+
+            return currentValue;
+        }
+
+        private int DecrementQuantity(Guna.UI2.WinForms.Guna2TextBox textBox)
+        {
+            // Get the current value from the GunaTextBox
+            int currentValue = int.Parse(textBox.Text);
+
+            // Decrement the value, but ensure it doesn't go below 0
+            currentValue = Math.Max(0, currentValue - 1);
+
+            // Update the GunaTextBox with the new value
+            textBox.Text = currentValue.ToString();
+
+            return currentValue;
+        }
+
+        private void MainMenuB2_Load_1(object sender, EventArgs e)
+        {
+            DecrementQuantity(TxtBox1);
+
+
+        }
+
+        private void ButtonMinus1_Click(object sender, EventArgs e)
+        {
+            DecrementQuantity(TxtBox1);
+
+        }
+
+        private void ButtonMinus2_Click(object sender, EventArgs e)
+        {
+            DecrementQuantity(TxtBox2);
+
+        }
+
+        private void ButtonMinus3_Click(object sender, EventArgs e)
+        {
+            DecrementQuantity(TxtBox3);
+
+
+        }
+
+        private void ButtomMinus4_Click(object sender, EventArgs e)
+        {
+            DecrementQuantity(TxtBox4);
+
+        }
+
+        private void ButtonMinus5_Click(object sender, EventArgs e)
+        {
+            DecrementQuantity(TxtBox5);
+
+        }
+
+        private void ButtonMinus6_Click(object sender, EventArgs e)
+        {
+            DecrementQuantity(TxtBox6);
+
+        }
+
+        private void ButtonMinus7_Click(object sender, EventArgs e)
+        {
+            DecrementQuantity(TxtBox7);
+
+        }
+
+        private void ButtonMinus8_Click(object sender, EventArgs e)
+        {
+            DecrementQuantity(TxtBox8);
+
+        }
+
+
+
+        private void ButtonPlus1_Click(object sender, EventArgs e)
+        {
+            IncrementQuantity(TxtBox1);
+
+        }
+
+        private void ButtonPlus2_Click(object sender, EventArgs e)
+        {
+            IncrementQuantity(TxtBox2);
+
+        }
+
+        private void ButtonPlus3_Click(object sender, EventArgs e)
+        {
+            IncrementQuantity(TxtBox3);
+
+        }
+
+        private void ButtonPlus4_Click(object sender, EventArgs e)
+        {
+            IncrementQuantity(TxtBox4);
+
+        }
+
+        private void ButtonPlus5_Click(object sender, EventArgs e)
+        {
+            IncrementQuantity(TxtBox5);
+
+        }
+
+        private void ButtonPlus6_Click(object sender, EventArgs e)
+        {
+            IncrementQuantity(TxtBox6);
+
+        }
+
+        private void ButtonPlus7_Click(object sender, EventArgs e)
+        {
+            IncrementQuantity(TxtBox7);
+
+        }
+        private void ButtonPlus8_Click(object sender, EventArgs e)
+        {
+            IncrementQuantity(TxtBox8);
+
+
+        }
     }
 }

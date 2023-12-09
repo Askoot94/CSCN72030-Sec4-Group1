@@ -248,6 +248,7 @@
             ButtomMinus4.Size = new System.Drawing.Size(82, 100);
             ButtomMinus4.TabIndex = 1;
             ButtomMinus4.Text = "-";
+            ButtomMinus4.Click += ButtomMinus4_Click;
             // 
             // TxtBox7
             // 
@@ -550,6 +551,7 @@
             ButtonMinus1.Size = new System.Drawing.Size(82, 100);
             ButtonMinus1.TabIndex = 1;
             ButtonMinus1.Text = "-";
+            ButtonMinus1.Click += ButtonMinus1_Click;
             // 
             // ButtonPlus1
             // 
@@ -568,6 +570,7 @@
             ButtonPlus1.Size = new System.Drawing.Size(87, 100);
             ButtonPlus1.TabIndex = 0;
             ButtonPlus1.Text = "+";
+            ButtonPlus1.Click += ButtonPlus1_Click;
             // 
             // guna2Panel1
             // 
@@ -706,6 +709,7 @@
             ButtonMinus3.Size = new System.Drawing.Size(82, 100);
             ButtonMinus3.TabIndex = 1;
             ButtonMinus3.Text = "-";
+            ButtonMinus3.Click += ButtonMinus3_Click;
             // 
             // ButtonPlus3
             // 
@@ -724,6 +728,7 @@
             ButtonPlus3.Size = new System.Drawing.Size(87, 100);
             ButtonPlus3.TabIndex = 0;
             ButtonPlus3.Text = "+";
+            ButtonPlus3.Click += ButtonPlus3_Click_1;
             // 
             // guna2Panel5
             // 
@@ -848,6 +853,7 @@
             ButtonPlus4.Size = new System.Drawing.Size(87, 100);
             ButtonPlus4.TabIndex = 0;
             ButtonPlus4.Text = "+";
+            ButtonPlus4.Click += ButtonPlus4_Click;
             // 
             // guna2Button2
             // 
@@ -886,6 +892,7 @@
             ButtonPlus2.Size = new System.Drawing.Size(87, 100);
             ButtonPlus2.TabIndex = 0;
             ButtonPlus2.Text = "+";
+            ButtonPlus2.Click += ButtonPlus2_Click_1;
             // 
             // guna2TextBox5
             // 
@@ -994,6 +1001,7 @@
             ButtonMinus2.Size = new System.Drawing.Size(82, 100);
             ButtonMinus2.TabIndex = 1;
             ButtonMinus2.Text = "-";
+            ButtonMinus2.Click += ButtonMinus2_Click;
             // 
             // guna2Panel3
             // 
@@ -1028,6 +1036,7 @@
             ButtonMinus7.Size = new System.Drawing.Size(82, 100);
             ButtonMinus7.TabIndex = 1;
             ButtonMinus7.Text = "-";
+            ButtonMinus7.Click += ButtonMinus7_Click;
             // 
             // guna2Panel6
             // 
@@ -1152,6 +1161,7 @@
             ButtonMinus5.Size = new System.Drawing.Size(82, 100);
             ButtonMinus5.TabIndex = 1;
             ButtonMinus5.Text = "-";
+            ButtonMinus5.Click += ButtonMinus5_Click;
             // 
             // ButtonPlus5
             // 
@@ -1170,6 +1180,7 @@
             ButtonPlus5.Size = new System.Drawing.Size(87, 100);
             ButtonPlus5.TabIndex = 0;
             ButtonPlus5.Text = "+";
+            ButtonPlus5.Click += ButtonPlus5_Click_1;
             // 
             // guna2Panel7
             // 
@@ -1294,6 +1305,7 @@
             ButtonMinus6.Size = new System.Drawing.Size(82, 100);
             ButtonMinus6.TabIndex = 1;
             ButtonMinus6.Text = "-";
+            ButtonMinus6.Click += ButtonMinus6_Click;
             // 
             // ButtonPlus6
             // 
@@ -1312,6 +1324,7 @@
             ButtonPlus6.Size = new System.Drawing.Size(87, 100);
             ButtonPlus6.TabIndex = 0;
             ButtonPlus6.Text = "+";
+            ButtonPlus6.Click += ButtonPlus6_Click_1;
             // 
             // guna2Button3
             // 
@@ -1479,6 +1492,7 @@
             ButtonMinus8.Size = new System.Drawing.Size(82, 100);
             ButtonMinus8.TabIndex = 1;
             ButtonMinus8.Text = "-";
+            ButtonMinus8.Click += ButtonMinus8_Click;
             // 
             // ButtonPlus8
             // 
@@ -1497,6 +1511,7 @@
             ButtonPlus8.Size = new System.Drawing.Size(87, 100);
             ButtonPlus8.TabIndex = 0;
             ButtonPlus8.Text = "+";
+            ButtonPlus8.Click += ButtonPlus8_Click_1;
             // 
             // ButtonPlus7
             // 
@@ -1515,6 +1530,7 @@
             ButtonPlus7.Size = new System.Drawing.Size(87, 100);
             ButtonPlus7.TabIndex = 0;
             ButtonPlus7.Text = "+";
+            ButtonPlus7.Click += ButtonPlus7_Click_1;
             // 
             // guna2Panel8
             // 
