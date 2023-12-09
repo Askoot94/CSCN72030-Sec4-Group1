@@ -39,7 +39,7 @@ namespace _Project_III_GUI
 
         private void label2_Click(object sender, EventArgs e)
         {
-            Mainmenu Mainmenu = new Mainmenu();
+            Mainmenu Mainmenu = new Mainmenu("Table A1");
             Mainmenu.Show();
             Visible = false;
         }
@@ -51,50 +51,45 @@ namespace _Project_III_GUI
 
         private void label3_Click(object sender, EventArgs e)
         {
-            Mainmenu Mainmenu = new Mainmenu();
+            MainMenuA2 Mainmenu = new MainMenuA2("Table A2");
             Mainmenu.Show();
             Visible = false;
         }
 
         private void label4_Click(object sender, EventArgs e)
         {
-            Mainmenu Mainmenu = new Mainmenu();
-            Mainmenu.Show();
+            MainMenuA3 MainMenu = new MainMenuA3("Table A3");
+            MainMenu.Show();
             Visible = false;
         }
-        private void label5_Click(object sender, EventArgs e)
+       
+        private void label6_Click(object sender, EventArgs e) // B1
         {
-            Mainmenu Mainmenu = new Mainmenu();
-            Mainmenu.Show();
-            Visible = false;
-        }
-        private void label6_Click(object sender, EventArgs e)
-        {
-            Mainmenu Mainmenu = new Mainmenu();
+            MainMenuB1 Mainmenu = new MainMenuB1("Table B1");
             Mainmenu.Show();
             Visible = false;
         }
         private void label7_Click(object sender, EventArgs e)
-        {   
-            Mainmenu Mainmenu = new Mainmenu();
+        {
+            MainMenuC1 Mainmenu = new MainMenuC1("Table C1");
             Mainmenu.Show();
             Visible = false;
         }
-        private void label8_Click(object sender, EventArgs e)
+        private void label8_Click(object sender, EventArgs e) // A5
         {
-            Mainmenu Mainmenu = new Mainmenu();
+            MainMenuA5 Mainmenu = new MainMenuA5("Table A5");
             Mainmenu.Show();
             Visible = false;
         }
         private void label9_Click(object sender, EventArgs e)
         {
-            Mainmenu Mainmenu = new Mainmenu();
+            MainMenuB2 Mainmenu = new MainMenuB2("TableB2");
             Mainmenu.Show();
             Visible = false;
         }
         private void label10_Click(object sender, EventArgs e)
         {
-            Mainmenu Mainmenu = new Mainmenu();
+            MainMenuC2 Mainmenu = new MainMenuC2("TableC2");
             Mainmenu.Show();
             Visible = false;
         }
@@ -106,13 +101,13 @@ namespace _Project_III_GUI
         }
         private void label12_Click(object sender, EventArgs e)
         {
-            Mainmenu Mainmenu = new Mainmenu();
+            MainMenuB3 Mainmenu = new MainMenuB3("TableB3");
             Mainmenu.Show();
             Visible = false;
         }
         private void label13_Click(object sender, EventArgs e)
         {
-            Mainmenu Mainmenu = new Mainmenu();
+            MainMenuC3 Mainmenu = new MainMenuC3("Table C3");
             Mainmenu.Show();
             Visible = false;
         }
@@ -120,6 +115,13 @@ namespace _Project_III_GUI
         private void label8_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            MainMenuA4 Mainmenu = new MainMenuA4("Table A4");
+            Mainmenu.Show();
+            Visible = false;
         }
     }
 }

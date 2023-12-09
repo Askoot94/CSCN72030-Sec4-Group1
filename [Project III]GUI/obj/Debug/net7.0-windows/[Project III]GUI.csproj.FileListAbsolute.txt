@@ -217,3 +217,14 @@ C:\Users\giris\OneDrive - Conestoga College\repos\Group 1 Project 3\[Project III
 C:\Users\giris\OneDrive - Conestoga College\repos\Group 1 Project 3\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.pdb
 C:\Users\giris\OneDrive - Conestoga College\repos\Group 1 Project 3\[Project III]GUI\obj\Debug\net7.0-windows\[Project III]GUI.genruntimeconfig.cache
 C:\Users\giris\OneDrive - Conestoga College\repos\Group 1 Project 3\[Project III]GUI\obj\Debug\net7.0-windows\ref\[Project III]GUI.dll
+C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.MainMenuA2.resources
+C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.MainMenuA3.resources
+C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.MainMenuA4.resources
+C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.MainMenuA5.resources
+C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.MainMenuA6.resources
+C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.MainMenuB1.resources
+C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.MainMenuB2.resources
+C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.MainMenuB3.resources
+C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.MainMenuC1.resources
+C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.MainMenuC2.resources
+C:\Users\EthanNguyen\source\repos\CSCN72030-Sec4-Group1\[Project III]GUI\obj\Debug\net7.0-windows\_Project_III_GUI.MainMenuC3.resources

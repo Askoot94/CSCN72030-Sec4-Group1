@@ -22,12 +22,11 @@ namespace _Project_III_GUI
     {
         public string tableOrder;
 
-        public Mainmenu()
+        public Mainmenu(string table)
         {
             InitializeComponent();
 
-            //Change this string to be whatever table this menu belongs to
-            tableOrder = "TableA1";
+            tableOrder = "Table A1";
         }
 
         private void Mainmenu_Load(object sender, EventArgs e)
