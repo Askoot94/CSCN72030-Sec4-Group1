@@ -36,5 +36,27 @@ namespace _Project_III_GUI
                 Visible = false;
             }
         }
+        //private Waiter_s_View Waiter_s_View = new Waiter_s_View();
+        private Chef_s_View Chef_s_View = new Chef_s_View();
+        private void guna2CircleButton2_Click(object sender, EventArgs e) // Served button 2
+        {
+            textBox11.Text = ("Served");
+            Chef_s_View.UpdateLabel("B2 !");
+            Chef_s_View.Show();
+        }
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e) // Served button 1
+        {
+            textBox7.Text = ("Served");
+            Chef_s_View.UpdateLabel("B2 !");
+            Chef_s_View.Show();
+        }
+
+        private void guna2CircleButton3_Click(object sender, EventArgs e) // Served button 3
+        {
+            textBox15.Text = ("Served");
+            Chef_s_View.UpdateLabel("B2 !");
+            Chef_s_View.Show();
+        }
     }
 }

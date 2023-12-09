@@ -36,5 +36,34 @@ namespace _Project_III_GUI
                 Visible = false;
             }
         }
+
+        public void UpdateTextbox(string newText) // Update Textbox 1
+        {
+            textBox7.Text = newText;
+        }
+
+        public void UpdateTextbox2(string newText) // Update Textbox 2
+        {
+            textBox11.Text = newText;
+        }
+
+        public void UpdateTextbox3(string newText) // Update Textbox 3
+        {
+            textBox15.Text = newText;
+        }
+
+
+        private void guna2CircleButton2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void guna2CircleButton3_Click(object sender, EventArgs e)
+        {
+        }
     }
 }

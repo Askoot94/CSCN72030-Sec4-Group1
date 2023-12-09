@@ -25,7 +25,7 @@ namespace _Project_III_GUI
 
         private void label8_Click(object sender, EventArgs e) // A5
         {
-            TableA5 tablea5 = new TableA5();
+            TableA5 tablea5 = new TableA5("Table A5");
             tablea5.Show();
             Visible = false;
         }
@@ -42,28 +42,28 @@ namespace _Project_III_GUI
 
         private void label5_Click(object sender, EventArgs e) // A4
         {
-            TableA4 tablea4 = new TableA4();
+            TableA4 tablea4 = new TableA4("Table A4");
             tablea4.Show();
             Visible = false;
         }
 
         private void label2_Click(object sender, EventArgs e) // Table A1 
         {
-            TableA1 tablea1 = new TableA1("TableA1");
+            TableA1 tablea1 = new TableA1("Table A1");
             tablea1.Show();
             Visible = false;
         } 
 
-        private void label3_Click(object sender, EventArgs e)
+        private void label3_Click(object sender, EventArgs e) // Table A2
         {
-            TableA2 tablea2 = new TableA2();
+            TableA2 tablea2 = new TableA2("Table A2");
             tablea2.Show();
             Visible = false;
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e) // Table A3
         {
-            TableA3 tablea3 = new TableA3();
+            TableA3 tablea3 = new TableA3("Table A3");
             tablea3.Show();
             Visible = false;
 

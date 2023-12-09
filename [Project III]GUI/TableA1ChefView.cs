@@ -118,6 +118,8 @@ namespace _Project_III_GUI
             //TableA1.Show();
 
         }
+
+
         public void UpdateTextbox(string newText) // Update Textbox 1
         {
             textBox7.Text = newText;
@@ -132,6 +134,34 @@ namespace _Project_III_GUI
         {
             textBox15.Text = newText;
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         private void label4_Click(object sender, EventArgs e)
