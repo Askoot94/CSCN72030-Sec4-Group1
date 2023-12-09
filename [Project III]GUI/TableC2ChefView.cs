@@ -93,18 +93,27 @@ namespace _Project_III_GUI
             textBox15.Text = newText;
         }
 
+        private Waiter_s_View Waiter_s_View = new Waiter_s_View();
 
         private void guna2CircleButton2_Click(object sender, EventArgs e)
         {
-
+            textBox11.Text = "Ready";
+            Waiter_s_View.UpdateLabelC2("C2!");
+            Waiter_s_View.Show();
         }
 
         private void guna2CircleButton1_Click(object sender, EventArgs e)
         {
+            textBox7.Text = "Ready";
+            Waiter_s_View.UpdateLabelC2("C2!");
+            Waiter_s_View.Show();
         }
 
         private void guna2CircleButton3_Click(object sender, EventArgs e)
         {
+            textBox15.Text = "Ready";
+            Waiter_s_View.UpdateLabelC2("C2!");
+            Waiter_s_View.Show();
         }
     }
 }

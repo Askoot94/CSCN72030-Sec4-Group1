@@ -487,6 +487,7 @@
             Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             Name = "TableA1ChefView";
             Text = "TableA1ChefView";
+            Load += TableA1ChefView_Load;
             guna2Panel1.ResumeLayout(false);
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel2.PerformLayout();

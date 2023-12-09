@@ -85,7 +85,7 @@ namespace _Project_III_GUI
         }
 
 
-     
+
 
         private void guna2Panel1_Paint(object sender, PaintEventArgs e)
         {
@@ -230,6 +230,11 @@ namespace _Project_III_GUI
         }
 
         private void textBox15_TextChanged(object sender, EventArgs e) // status 3
+        {
+
+        }
+
+        private void TableA1ChefView_Load(object sender, EventArgs e)
         {
 
         }

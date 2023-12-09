@@ -278,6 +278,7 @@
             guna2CircleButton3.Size = new System.Drawing.Size(176, 178);
             guna2CircleButton3.TabIndex = 5;
             guna2CircleButton3.Text = "Ready";
+            guna2CircleButton3.Click += guna2CircleButton3_Click;
             // 
             // guna2CircleButton2
             // 
