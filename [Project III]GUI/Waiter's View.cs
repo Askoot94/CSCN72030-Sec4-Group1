@@ -71,28 +71,28 @@ namespace _Project_III_GUI
 
         private void label6_Click(object sender, EventArgs e) // B1
         {
-            TableB1 tableB1 = new TableB1();
+            TableB1 tableB1 = new TableB1("Table B1");
             tableB1.Show();
             Visible = false;
         }
 
         private void label7_Click(object sender, EventArgs e)
         {
-            TableC1 tableC1 = new TableC1();
+            TableC1 tableC1 = new TableC1("Table C1");
             tableC1.Show();
             Visible = false;
         }
 
         private void label9_Click(object sender, EventArgs e)
         {
-            TableB2 tableB2 = new TableB2();
+            TableB2 tableB2 = new TableB2("Table B2");
             tableB2.Show();
             Visible = false;
         }
 
         private void label10_Click(object sender, EventArgs e)
         {
-            TableC2 tableC2 = new TableC2();
+            TableC2 tableC2 = new TableC2("Table C2");
             tableC2.Show();
             Visible = false;
         }
@@ -106,7 +106,7 @@ namespace _Project_III_GUI
 
         private void label12_Click(object sender, EventArgs e)
         {
-            TableB3 tableB3 = new TableB3();
+            TableB3 tableB3 = new TableB3("Table B3");
             tableB3.Show();
             Visible = false;
         }

@@ -151,35 +151,35 @@ namespace _Project_III_GUI
 
         private void label6_Click(object sender, EventArgs e)
         {
-            TableB1ChefView tableb1 = new TableB1ChefView();
+            TableB1ChefView tableb1 = new TableB1ChefView("Table B1");
             tableb1.Show();
             Visible = false;
         }
 
         private void label9_Click(object sender, EventArgs e)
         {
-            TableB2ChefView tableb2 = new TableB2ChefView();
+            TableB2ChefView tableb2 = new TableB2ChefView("Table B2");
             tableb2.Show();
             Visible = false;
         }
 
         private void label12_Click(object sender, EventArgs e)
         {
-            TableB3ChefView tableb3 = new TableB3ChefView();
+            TableB3ChefView tableb3 = new TableB3ChefView("Table B3");
             tableb3.Show();
             Visible = false;
         }
 
         private void label7_Click(object sender, EventArgs e)
         {
-            TableC1ChefView tablec1 = new TableC1ChefView();
+            TableC1ChefView tablec1 = new TableC1ChefView("Table C1");
             tablec1.Show();
             Visible = false;
         }
 
         private void label10_Click(object sender, EventArgs e)
         {
-            TableC2ChefView tablec2 = new TableC2ChefView();
+            TableC2ChefView tablec2 = new TableC2ChefView("Table C2");
             tablec2.Show();
             Visible = false;
         }

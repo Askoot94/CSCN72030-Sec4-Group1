@@ -12,12 +12,38 @@ namespace _Project_III_GUI
 {
     public partial class TableB2 : Form
     {
-        Order tableOrder = new Order("TableB2");
-        public TableB2()
+        public string filename { get; set; }
+        public TableB2(string Table)
         {
             InitializeComponent();
+            filename = Table;
+
         }
 
+        private void TableB2_Load(object sender, EventArgs e)
+        {
+            Order file = new Order(filename);
+            string buffer;
+            if (file.GetNumberofDishes() >= 1)
+            {
+                buffer = file.GetDishQuantity(0).ToString();
+                textBox4.Text = buffer;
+                textBox5.Text = file.GetDishName(0);
+            }
+            if (file.GetNumberofDishes() >= 2)
+            {
+                buffer = file.GetDishQuantity(1).ToString();
+                textBox8.Text = buffer;
+                textBox9.Text = file.GetDishName(1);
+            }
+            if (file.GetNumberofDishes() >= 3)
+            {
+                buffer = file.GetDishQuantity(2).ToString();
+                textBox12.Text = buffer;
+                textBox13.Text = file.GetDishName(2);
+            }
+
+        }
         private void guna2Button2_Click(object sender, EventArgs e) // back
         {
             Waiter_s_View Waiter = new Waiter_s_View();
@@ -36,27 +62,37 @@ namespace _Project_III_GUI
                 Visible = false;
             }
         }
+
+
+        private TableB2ChefView TableB2ChefView = new TableB2ChefView("Table B2");
+
         //private Waiter_s_View Waiter_s_View = new Waiter_s_View();
         private Chef_s_View Chef_s_View = new Chef_s_View();
         private void guna2CircleButton2_Click(object sender, EventArgs e) // Served button 2
         {
             textBox11.Text = ("Served");
-            Chef_s_View.UpdateLabel("B2 !");
+            Chef_s_View.UpdateLabelB2("B2 !");
             Chef_s_View.Show();
+            TableB2ChefView.UpdateTextbox2("Served");
+            TableB2ChefView.Show();
         }
 
         private void guna2CircleButton1_Click(object sender, EventArgs e) // Served button 1
         {
             textBox7.Text = ("Served");
-            Chef_s_View.UpdateLabel("B2 !");
+            Chef_s_View.UpdateLabelB2("B2 !");
             Chef_s_View.Show();
+            TableB2ChefView.UpdateTextbox("Served");
+            TableB2ChefView.Show();
         }
 
         private void guna2CircleButton3_Click(object sender, EventArgs e) // Served button 3
         {
             textBox15.Text = ("Served");
-            Chef_s_View.UpdateLabel("B2 !");
+            Chef_s_View.UpdateLabelB2("B2 !");
             Chef_s_View.Show();
+            TableB2ChefView.UpdateTextbox3("Served");
+            TableB2ChefView.Show();
         }
     }
 }

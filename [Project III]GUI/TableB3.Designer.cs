@@ -542,6 +542,7 @@
             Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             Name = "TableB3";
             Text = "TableB3";
+            Load += TableB3_Load;
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel2.PerformLayout();
             guna2Panel1.ResumeLayout(false);
