@@ -177,25 +177,25 @@ namespace _Project_III_GUI
         }
         private void ButtonPlus4_Click(object sender, EventArgs e)
         {
-            IncrementQuantity(TxtBox3);
+            IncrementQuantity(TxtBox4);
 
 
         }
         private void ButtonPlus5_Click(object sender, EventArgs e)
         {
-            IncrementQuantity(TxtBox3);
+            IncrementQuantity(TxtBox5);
 
         }
 
         private void ButtonPlus6_Click(object sender, EventArgs e)
         {
-            IncrementQuantity(TxtBox3);
+            IncrementQuantity(TxtBox6);
 
         }
 
         private void ButtonPlus7_Click(object sender, EventArgs e)
         {
-            IncrementQuantity(TxtBox3);
+            IncrementQuantity(TxtBox7);
 
         }
 

@@ -90,7 +90,7 @@ namespace _Project_III_GUI
 
         private void label2_Click(object sender, EventArgs e)
         {
-            TableA1ChefView tablea1 = new TableA1ChefView("TableA1");
+            TableA1ChefView tablea1 = new TableA1ChefView("Table A1");
             tablea1.Show();
             Visible = false;
         }

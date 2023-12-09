@@ -98,7 +98,7 @@ namespace _Project_III_GUI
             }
         }
 
-        private TableA2ChefView TableA2ChefView = new TableA2ChefView("TableA2");
+        private TableA2ChefView TableA2ChefView = new TableA2ChefView("Table A2");
 
 
         //private Waiter_s_View Waiter_s_View = new Waiter_s_View();
