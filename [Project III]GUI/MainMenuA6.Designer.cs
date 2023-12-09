@@ -1009,6 +1009,7 @@
             guna2Button18.Size = new System.Drawing.Size(223, 88);
             guna2Button18.TabIndex = 1;
             guna2Button18.Text = "Send";
+            guna2Button18.Click += guna2Button18_Click;
             // 
             // guna2Button1
             // 
