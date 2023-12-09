@@ -114,7 +114,7 @@ namespace _Project_III_GUI
         private void label13_Click(object sender, EventArgs e)
         {
 
-            TableC3 tableC3 = new TableC3();
+            TableC3 tableC3 = new TableC3("Table C3");
             tableC3.Show();
             Visible = false;
         }

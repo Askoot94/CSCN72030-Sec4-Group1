@@ -186,7 +186,7 @@ namespace _Project_III_GUI
 
         private void label13_Click(object sender, EventArgs e)
         {
-            TableC3ChefView tablec3 = new TableC3ChefView();
+            TableC3ChefView tablec3 = new TableC3ChefView("Table C3");
             tablec3.Show();
             Visible = false;
         }
