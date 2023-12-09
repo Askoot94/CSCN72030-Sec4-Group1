@@ -23,26 +23,7 @@ namespace _Project_III_GUI
 
         private void TableA1_Load(object sender, EventArgs e)
         {
-            Order file = new Order(filename);
-            string buffer;
-            if (file.GetNumberofDishes() >= 1)
-            {
-                buffer = file.GetDishQuantity(0).ToString();
-                textBox4.Text = buffer;
-                textBox5.Text = file.GetDishName(0);
-            }
-            if (file.GetNumberofDishes() >= 2)
-            {
-                buffer = file.GetDishQuantity(1).ToString();
-                textBox8.Text = buffer;
-                textBox9.Text = file.GetDishName(1);
-            }
-            if (file.GetNumberofDishes() >= 3)
-            {
-                buffer = file.GetDishQuantity(2).ToString();
-                textBox12.Text = buffer;
-                textBox13.Text = file.GetDishName(2);
-            }
+            FetchDisplayData(0);
             
         }
 
@@ -88,6 +69,32 @@ namespace _Project_III_GUI
             TableA1ChefView.Show();
             
             
+        }
+
+        private void FetchDisplayData(int page)
+        {
+            Order file = new Order(filename);
+            string buffer;
+            int Additive = (page * 3);
+            if (file.GetNumberofDishes() >= 1 + Additive)
+            {
+                buffer = file.GetDishQuantity(0 + Additive).ToString();
+                textBox4.Text = buffer;
+                textBox5.Text = file.GetDishName(0);
+            }
+            if (file.GetNumberofDishes() >= 2 + Additive)
+            {
+                buffer = file.GetDishQuantity(1 + Additive).ToString();
+                textBox8.Text = buffer;
+                textBox9.Text = file.GetDishName(1 + Additive);
+            }
+            if (file.GetNumberofDishes() >= 3 + Additive)
+            {
+                buffer = file.GetDishQuantity(2 + Additive).ToString();
+                textBox12.Text = buffer;
+                textBox13.Text = file.GetDishName(2 + Additive);
+            }
+            return;
         }
     }
 }

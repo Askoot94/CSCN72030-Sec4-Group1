@@ -19,50 +19,12 @@ namespace _Project_III_GUI
             InitializeComponent();
             guna2CircleButton1.Click += guna2CircleButton1_Click;
             Table = filename;
-            Order file = new Order(filename);
-            if(file.GetNumberofDishes() == 1)
-            {
-                string buffer;
-                buffer = file.GetDishQuantity(0).ToString();
-                textBox4.Text = buffer;
-                textBox5.Text = file.GetDishName(0);
-            }
-            else if(file.GetNumberofDishes() == 2)
-            {
-                string buffer;
-                buffer = file.GetDishQuantity(0).ToString();
-                textBox4.Text = buffer;
-                textBox5.Text = file.GetDishName(0);
 
-                buffer = file.GetDishQuantity(1).ToString();
-                textBox8.Text = buffer;
-                textBox9.Text = file.GetDishName(1);
-            }
-            else if(file.GetNumberofDishes() == 3)
-            {
-                string buffer;
-                buffer = file.GetDishQuantity(0).ToString();
-                textBox4.Text = buffer;
-                textBox5.Text = file.GetDishName(0);
-
-                buffer = file.GetDishQuantity(1).ToString();
-                textBox8.Text = buffer;
-                textBox9.Text = file.GetDishName(1);
-
-                buffer = file.GetDishQuantity(2).ToString();
-                textBox12.Text = buffer;
-                textBox13.Text = file.GetDishName(2);
-            }
-            else
-            {
-                return;
-            }
-            
         }
 
         private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
         {
-
+            FetchDisplayData(0);
         }
 
         private void guna2Button2_Click(object sender, EventArgs e) // Back button
@@ -168,6 +130,30 @@ namespace _Project_III_GUI
         private void label5_Click(object sender, EventArgs e)
         {
 
+        }
+        private void FetchDisplayData(int page)
+        {
+            Order file = new Order(Table);
+            string buffer;
+            int Additive = (page * 3);
+            if (file.GetNumberofDishes() >= 1 + Additive)
+            {
+                buffer = file.GetDishQuantity(0 + Additive).ToString();
+                textBox4.Text = buffer;
+                textBox5.Text = file.GetDishName(0);
+            }
+            if (file.GetNumberofDishes() >= 2 + Additive)
+            {
+                buffer = file.GetDishQuantity(1 + Additive).ToString();
+                textBox8.Text = buffer;
+                textBox9.Text = file.GetDishName(1 + Additive);
+            }
+            if (file.GetNumberofDishes() >= 3 + Additive)
+            {
+                buffer = file.GetDishQuantity(2 + Additive).ToString();
+                textBox12.Text = buffer;
+                textBox13.Text = file.GetDishName(2 + Additive);
+            }
         }
     }
 }

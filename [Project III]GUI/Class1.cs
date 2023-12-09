@@ -166,11 +166,7 @@ namespace _Project_III_GUI
             return;
 
         }
-        ~Order()
-        {
-            this.SaveToFile();
-
-        }
+        
         public int GetNumberofDishes()
         {
             return Dishes;
@@ -255,5 +251,8 @@ namespace _Project_III_GUI
         {
             return this.Food[dishNumber].price;
         }
+
+        //I should add a function to Get rid of an existing Order
     }
 }
+
