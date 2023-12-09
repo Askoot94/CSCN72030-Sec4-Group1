@@ -17,18 +17,21 @@ namespace _Project_III_GUI
         [STAThread]
         static void Main()
         {
-            Order newOrder = new Order("testing");
-            //newOrder.AddItem(1, "Burger", 10.99f, 1
-            //newOrder.AddItem(2, "Shake", 4.99f, 2);
-            //newOrder.AddItem(3, "Salad", 2.99f, 3);
-            //newOrder.SaveToFile();
-
-            //Application.EnableVisualStyles();
-            //Application.SetCompatibleTextRenderingDefault(false);
-            // Application.Run(new TableA1());
-            // Application.Run(new Waiter_s_View());   
-            // Application.Run(new LoginPage());   
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new LoginPage());
+            // Application.Run(new LoginPage()); 
+            //Application.Run(new Waiter_s_View());
+            //Application.Run(new TableA1ChefView());
+            //Application.Run(new TableA1());
+            // Application.Run(new TableA2());
             //Application.Run(new OrderCart());
+            // Billing system
+
+            //TableA1 tableA1 = new TableA1("Table A1");
+            //TableA1ChefView TableA1chefView = new TableA1ChefView("Table A1");
+            //Waiter_s_View Waiter_s_View = new Waiter_s_View();
+            //Chef_s_View Chef_s_View = new Chef_s_View();
 
         }
     }

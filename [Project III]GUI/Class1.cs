@@ -118,7 +118,7 @@ namespace _Project_III_GUI
         }
     }
 
-    internal class Order
+    public class Order
     {
         private string TableName;
         private int Dishes = 0;
@@ -162,10 +162,11 @@ namespace _Project_III_GUI
                 this.Dishes = Food.Count;
             }
 
-            
+
             return;
 
         }
+        
         public int GetNumberofDishes()
         {
             return Dishes;
@@ -180,8 +181,20 @@ namespace _Project_III_GUI
         public void AddItem(string name, float price, int Quantity)
         {
             FoodItem Creation = new FoodItem(this.Dishes, name, price, Quantity);
-            Food.Add(Creation);
-            Dishes++;
+            foreach(var FoodItem in Food)
+            {
+                if (Creation.name == FoodItem.name)
+                {
+                    AdjustAmountOfItem(FoodItem.item_id, Creation.quantity);
+                    return;
+                }
+                
+            }
+            
+               Food.Add(Creation);
+               Dishes++;
+            
+
         }
         public void SaveToFile()
         {
@@ -192,7 +205,7 @@ namespace _Project_III_GUI
 
             //Turn Fooditem list into JSON format string data
             string jsonString = JsonSerializer.Serialize<List<FoodItem>>(Food, options);
-            
+
             //Write that json format data to a file.
             File.WriteAllText("./Files/" + TableName + ".json", jsonString);
 
@@ -225,5 +238,21 @@ namespace _Project_III_GUI
         {
             this.Food[dishNumber].GetInfo(out retrive);
         }
+
+        public string GetDishName(int dishNumber)
+        {
+            return this.Food[dishNumber].name;
+        }
+        public int GetDishQuantity(int dishNumber)
+        {
+            return this.Food[dishNumber].quantity;
+        }
+        public float GetDishPrice(int dishNumber)
+        {
+            return this.Food[dishNumber].price;
+        }
+
+        //I should add a function to Get rid of an existing Order
     }
 }
+

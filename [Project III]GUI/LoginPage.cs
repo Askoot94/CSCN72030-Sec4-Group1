@@ -96,7 +96,38 @@ namespace _Project_III_GUI
             
         }
 
-        private void label7_Click_1(object sender, EventArgs e) // Waiter label
+        //private void label7_Click_1(object sender, EventArgs e) // Waiter label
+        //{
+        //    DialogResult iOpen;
+        //    iOpen = MessageBox.Show("Continue as a Waiter?",
+        //        "Ordering System", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+        //    if (iOpen == DialogResult.Yes)
+        //    {
+        //        Waiter_s_View waiter = new Waiter_s_View();
+        //        waiter.Show();
+        //        Visible = false;
+        //    }
+        //}
+
+        private void guna2Panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e) // Customer button
+        {
+            DialogResult iOpen;
+            iOpen = MessageBox.Show("Continue as a Customer?",
+                "Ordering System", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (iOpen == DialogResult.Yes)
+            {
+                Customer_s_View Customer = new Customer_s_View();
+                Customer.Show();
+                Visible = false;
+            }
+        }
+
+        private void guna2Button2_Click(object sender, EventArgs e) // Waiter button
         {
             DialogResult iOpen;
             iOpen = MessageBox.Show("Continue as a Waiter?",
@@ -105,6 +136,30 @@ namespace _Project_III_GUI
             {
                 Waiter_s_View waiter = new Waiter_s_View();
                 waiter.Show();
+                Visible = false;
+            }
+        }
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e) // exit button
+        {
+            DialogResult iExit;
+            iExit = MessageBox.Show("You want to exit the system",
+                "Ordering System", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (iExit == DialogResult.Yes)
+            {
+                Application.Exit();
+            }
+        }
+
+        private void guna2Button1_Click_1(object sender, EventArgs e) // Chef button
+        {
+            DialogResult iOpen;
+            iOpen = MessageBox.Show("Continue as a Chef?",
+                "Ordering System", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (iOpen == DialogResult.Yes)
+            {
+                Chef_s_View Chef = new Chef_s_View();
+                Chef.Show();
                 Visible = false;
             }
         }
