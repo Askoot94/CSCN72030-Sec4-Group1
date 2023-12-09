@@ -20,14 +20,14 @@ namespace _Project_III_GUI
             guna2CircleButton1.Click += guna2CircleButton1_Click;
             Table = filename;
             Order file = new Order(filename);
-            if(file.GetNumberofDishes() == 1)
+            if (file.GetNumberofDishes() == 1)
             {
                 string buffer;
                 buffer = file.GetDishQuantity(0).ToString();
                 textBox4.Text = buffer;
                 textBox5.Text = file.GetDishName(0);
             }
-            else if(file.GetNumberofDishes() == 2)
+            else if (file.GetNumberofDishes() == 2)
             {
                 string buffer;
                 buffer = file.GetDishQuantity(0).ToString();
@@ -38,7 +38,7 @@ namespace _Project_III_GUI
                 textBox8.Text = buffer;
                 textBox9.Text = file.GetDishName(1);
             }
-            else if(file.GetNumberofDishes() == 3)
+            else if (file.GetNumberofDishes() == 3)
             {
                 string buffer;
                 buffer = file.GetDishQuantity(0).ToString();
@@ -57,7 +57,7 @@ namespace _Project_III_GUI
             {
                 return;
             }
-            
+
         }
 
         private void tableLayoutPanel2_Paint(object sender, PaintEventArgs e)
@@ -84,37 +84,56 @@ namespace _Project_III_GUI
             }
         }
 
+
+     
+
         private void guna2Panel1_Paint(object sender, PaintEventArgs e)
         {
 
         }
 
-        private void guna2CircleButton3_Click(object sender, EventArgs e)
+        private void guna2CircleButton3_Click(object sender, EventArgs e) // Ready button 3
         {
-
+            textBox15.Text = "Ready";
+            Waiter_s_View.UpdateLabel("A1!");
+            Waiter_s_View.Show();
         }
 
-        private void guna2CircleButton2_Click(object sender, EventArgs e)
+        private void guna2CircleButton2_Click(object sender, EventArgs e) // Ready button 2
         {
-
+            textBox11.Text = "Ready";
+            Waiter_s_View.UpdateLabel("A1!");
+            Waiter_s_View.Show();
         }
 
         //private TableA1 TableA1 = new TableA1();
         private Waiter_s_View Waiter_s_View = new Waiter_s_View();
-        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        private void guna2CircleButton1_Click(object sender, EventArgs e) // Ready Button 1
         {
             textBox7.Text = "Ready";
             Waiter_s_View.UpdateLabel("A1!");
             Waiter_s_View.Show();
 
             //TableA1.UpdateTextbox("Ready");
-            // TableA1.Show();
+            //TableA1.Show();
 
         }
-        public void UpdateTextbox(string newText)
+        public void UpdateTextbox(string newText) // Update Textbox 1
         {
             textBox7.Text = newText;
         }
+
+        public void UpdateTextbox2(string newText) // Update Textbox 2
+        {
+            textBox11.Text = newText;
+        }
+
+        public void UpdateTextbox3(string newText) // Update Textbox 3
+        {
+            textBox15.Text = newText;
+        }
+
+
         private void label4_Click(object sender, EventArgs e)
         {
 
@@ -166,6 +185,21 @@ namespace _Project_III_GUI
         }
 
         private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e) // status 1
+        {
+
+        }
+
+        private void textBox11_TextChanged(object sender, EventArgs e) // status 2
+        {
+
+        }
+
+        private void textBox15_TextChanged(object sender, EventArgs e) // status 3
         {
 
         }

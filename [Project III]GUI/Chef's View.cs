@@ -24,6 +24,70 @@ namespace _Project_III_GUI
         {
             label2.Text = newText;
         }
+
+        public void UpdateLabelA2(string newText)
+        {
+            label3.Text = newText;
+        }
+
+        public void UpdateLabelA3(string newText)
+        {
+            label4.Text = newText;
+        }
+
+        public void UpdateLabelA4(string newText)
+        {
+            label5.Text = newText;
+        }
+
+        public void UpdateLabelA5(string newText)
+        {
+            label8.Text = newText;
+        }
+
+        public void UpdateLabelA6(string newText)
+        {
+            label11.Text = newText;
+        }
+
+        public void UpdateLabelB1(string newText)
+        {
+            label6.Text = newText;
+        }
+
+        public void UpdateLabelB2(string newText)
+        {
+            label9.Text = newText;
+        }
+
+        public void UpdateLabelB3(string newText)
+        {
+            label12.Text = newText;
+        }
+
+        public void UpdateLabelC1(string newText)
+        {
+            label7.Text = newText;
+        }
+
+        public void UpdateLabelC2(string newText)
+        {
+            label10.Text = newText;
+        }
+
+        public void UpdateLabelC3(string newText)
+        {
+            label13.Text = newText;
+        }
+
+
+
+
+
+
+
+
+
         private void label2_Click(object sender, EventArgs e)
         {
             TableA1ChefView tablea1 = new TableA1ChefView("TableA1");

@@ -18,7 +18,7 @@ namespace _Project_III_GUI
         {
             InitializeComponent();
             filename = Table;
-            
+
         }
 
         private void TableA1_Load(object sender, EventArgs e)
@@ -43,7 +43,7 @@ namespace _Project_III_GUI
                 textBox12.Text = buffer;
                 textBox13.Text = file.GetDishName(2);
             }
-            
+
         }
 
         private void guna2Button2_Click(object sender, EventArgs e) // back butonn
@@ -70,24 +70,88 @@ namespace _Project_III_GUI
 
         }
 
-        public void UpdateTextbox(string newText)
+        public void UpdateTextbox(string newText) // Update status text box 1
         {
             textBox7.Text = newText;
         }
 
+
+        public void UpdateTextbox2(string newText) // Update status text box 2
+        {
+            textBox11.Text = newText;
+        }
+
+
+        public void UpdateTextbox3(string newText) // Update status text box 3
+        {
+            textBox15.Text = newText;
+        }
+
+
         private TableA1ChefView TableA1ChefView = new TableA1ChefView("TableA1");
+
+
         //private Waiter_s_View Waiter_s_View = new Waiter_s_View();
         private Chef_s_View Chef_s_View = new Chef_s_View();
-        private void guna2CircleButton1_Click(object sender, EventArgs e)
+
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e) // Served Button 1
         {
             textBox7.Text = ("Served");
             Chef_s_View.UpdateLabel("A1!");
             Chef_s_View.Show();
-          
+
             TableA1ChefView.UpdateTextbox("Served");
             TableA1ChefView.Show();
-            
-            
+
+
+        }
+
+        private void guna2CircleButton2_Click(object sender, EventArgs e) // Served Button 2
+        {
+            textBox11.Text = ("Served");
+            Chef_s_View.UpdateLabel("A1!");
+            Chef_s_View.Show();
+
+            TableA1ChefView.UpdateTextbox2("Served");
+            TableA1ChefView.Show();
+
+        }
+
+        private void guna2CircleButton3_Click(object sender, EventArgs e) // Served Button 3
+        {
+            textBox15.Text = ("Served");
+            Chef_s_View.UpdateLabel("A1!");
+            Chef_s_View.Show();
+
+            TableA1ChefView.UpdateTextbox3("Served");
+            TableA1ChefView.Show();
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        private void textBox11_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
