@@ -144,7 +144,7 @@ namespace _Project_III_GUI
 
         private void label11_Click(object sender, EventArgs e)
         {
-            TableA6ChefView tablea6 = new TableA6ChefView();
+            TableA6ChefView tablea6 = new TableA6ChefView("Table A6");
             tablea6.Show();
             Visible = false;
         }

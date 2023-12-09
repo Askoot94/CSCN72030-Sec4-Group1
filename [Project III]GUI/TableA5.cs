@@ -20,7 +20,7 @@ namespace _Project_III_GUI
 
         }
 
-        private void TableA2_Load(object sender, EventArgs e)
+        private void TableA5_Load(object sender, EventArgs e)
         {
             Order file = new Order(filename);
             string buffer;
