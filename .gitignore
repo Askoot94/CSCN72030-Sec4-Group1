@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/CSCN72020-Sec4-Group1/FileContentIndex/321a7d7d-bd65-41d0-85d6-c84674e06624.vsidx
+/.vs/CSCN72020-Sec4-Group1/FileContentIndex/7774c5e8-7d8e-4194-873c-4c1e90af019f.vsidx
+*.vsidx
+/.vs/CSCN72020-Sec4-Group1/v17/.wsuo
+/.vs/[Project III]GUI/v17/.suo
+/.vs/slnx.sqlite
