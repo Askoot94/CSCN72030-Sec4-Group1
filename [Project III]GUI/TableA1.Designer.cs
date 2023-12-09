@@ -83,7 +83,7 @@
             tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 50F));
             tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 21F));
             tableLayoutPanel1.Location = new System.Drawing.Point(-43, -105);
-            tableLayoutPanel1.Name = "tableLayoutPanel1";
+            tableLayoutPanel1.Name = "Table LayoutPanel1";
             tableLayoutPanel1.RowCount = 2;
             tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
@@ -117,7 +117,7 @@
             tableLayoutPanel2.Controls.Add(textBox8, 0, 2);
             tableLayoutPanel2.Controls.Add(textBox7, 3, 1);
             tableLayoutPanel2.Location = new System.Drawing.Point(25, 122);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.Name = "Table LayoutPanel2";
             tableLayoutPanel2.RowCount = 5;
             tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45.02924F));
             tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 54.97076F));
@@ -510,8 +510,8 @@
             Controls.Add(guna2Panel1);
             Controls.Add(label5);
             Controls.Add(tableLayoutPanel1);
-            Name = "TableA1";
-            Text = "TableA1";
+            Name = "Table A1";
+            Text = "Table A1";
             Load += TableA1_Load;
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel2.PerformLayout();

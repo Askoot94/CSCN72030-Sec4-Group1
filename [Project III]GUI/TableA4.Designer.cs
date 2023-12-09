@@ -450,7 +450,7 @@
             tableLayoutPanel2.Controls.Add(textBox4, 0, 1);
             tableLayoutPanel2.Location = new System.Drawing.Point(25, 121);
             tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.Name = "Table LayoutPanel2";
             tableLayoutPanel2.RowCount = 5;
             tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45.02924F));
             tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 54.97076F));
@@ -540,8 +540,8 @@
             Controls.Add(guna2Panel1);
             Controls.Add(label6);
             Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            Name = "TableA4";
-            Text = "TableA4";
+            Name = "Table A4";
+            Text = "Table A4";
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel2.PerformLayout();
             guna2Panel1.ResumeLayout(false);

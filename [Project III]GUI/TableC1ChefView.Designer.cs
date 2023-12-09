@@ -328,7 +328,7 @@
             tableLayoutPanel2.Controls.Add(textBox7, 3, 1);
             tableLayoutPanel2.Location = new System.Drawing.Point(25, 121);
             tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.Name = "Table LayoutPanel2";
             tableLayoutPanel2.RowCount = 5;
             tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45.02924F));
             tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 54.97076F));
@@ -472,8 +472,8 @@
             Controls.Add(label5);
             Controls.Add(guna2Panel1);
             Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            Name = "TableC1ChefView";
-            Text = "TableC1ChefView";
+            Name = "Table C1ChefView";
+            Text = "Table C1ChefView";
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel2.PerformLayout();
             guna2Panel1.ResumeLayout(false);

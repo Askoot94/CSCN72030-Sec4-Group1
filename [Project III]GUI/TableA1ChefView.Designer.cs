@@ -220,7 +220,7 @@
             tableLayoutPanel2.Controls.Add(textBox7, 3, 1);
             tableLayoutPanel2.Location = new System.Drawing.Point(26, 122);
             tableLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            tableLayoutPanel2.Name = "tableLayoutPanel2";
+            tableLayoutPanel2.Name = "Table LayoutPanel2";
             tableLayoutPanel2.RowCount = 5;
             tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 45.02924F));
             tableLayoutPanel2.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 54.97076F));
@@ -258,7 +258,7 @@
             textBox15.Name = "textBox15";
             textBox15.Size = new System.Drawing.Size(133, 35);
             textBox15.TabIndex = 36;
-            textBox15.TextChanged += textBox15_TextChanged;
+            //textBox15.TextChanged += textBox15_TextChanged;
             // 
             // label3
             // 
@@ -339,7 +339,7 @@
             textBox11.Name = "textBox11";
             textBox11.Size = new System.Drawing.Size(133, 35);
             textBox11.TabIndex = 32;
-            textBox11.TextChanged += textBox11_TextChanged;
+            //textBox11.TextChanged += textBox11_TextChanged;
             // 
             // textBox4
             // 
@@ -396,7 +396,7 @@
             textBox7.Name = "textBox7";
             textBox7.Size = new System.Drawing.Size(133, 35);
             textBox7.TabIndex = 28;
-            textBox7.TextChanged += textBox7_TextChanged;
+            //textBox7.TextChanged += textBox7_TextChanged;
             // 
             // label9
             // 
@@ -485,9 +485,9 @@
             Controls.Add(label5);
             Controls.Add(guna2Panel1);
             Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            Name = "TableA1ChefView";
-            Text = "TableA1ChefView";
-            Load += TableA1ChefView_Load;
+            Name = "Table A1ChefView";
+            Text = "Table A1ChefView";
+            //Load += TableA1ChefView_Load;
             guna2Panel1.ResumeLayout(false);
             tableLayoutPanel2.ResumeLayout(false);
             tableLayoutPanel2.PerformLayout();

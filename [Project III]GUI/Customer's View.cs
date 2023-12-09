@@ -83,25 +83,25 @@ namespace _Project_III_GUI
         }
         private void label9_Click(object sender, EventArgs e)
         {
-            MainMenuB2 Mainmenu = new MainMenuB2("TableB2");
+            MainMenuB2 Mainmenu = new MainMenuB2("Table B2");
             Mainmenu.Show();
             Visible = false;
         }
         private void label10_Click(object sender, EventArgs e)
         {
-            MainMenuC2 Mainmenu = new MainMenuC2("TableC2");
+            MainMenuC2 Mainmenu = new MainMenuC2("Table C2");
             Mainmenu.Show();
             Visible = false;
         }
         private void label11_Click(object sender, EventArgs e)
         {
-            Mainmenu Mainmenu = new Mainmenu();
+            MainMenuA6 Mainmenu = new MainMenuA6("Table A6");
             Mainmenu.Show();
             Visible = false;
         }
         private void label12_Click(object sender, EventArgs e)
         {
-            MainMenuB3 Mainmenu = new MainMenuB3("TableB3");
+            MainMenuB3 Mainmenu = new MainMenuB3("Table B3");
             Mainmenu.Show();
             Visible = false;
         }
