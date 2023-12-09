@@ -51,32 +51,49 @@ namespace _Project_III_GUI
 
         }
 
-        private void guna2CircleButton3_Click(object sender, EventArgs e)
+        private void guna2CircleButton3_Click(object sender, EventArgs e) // Ready button 3
         {
-
+            textBox15.Text = "Ready";
+            Waiter_s_View.UpdateLabel("A1!");
+            Waiter_s_View.Show();
         }
 
-        private void guna2CircleButton2_Click(object sender, EventArgs e)
+        private void guna2CircleButton2_Click(object sender, EventArgs e) // Ready button 2
         {
-
+            textBox11.Text = "Ready";
+            Waiter_s_View.UpdateLabel("A1!");
+            Waiter_s_View.Show();
         }
 
         //private TableA1 TableA1 = new TableA1();
         private Waiter_s_View Waiter_s_View = new Waiter_s_View();
-        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        private void guna2CircleButton1_Click(object sender, EventArgs e) // Ready Button 1
         {
             textBox7.Text = "Ready";
             Waiter_s_View.UpdateLabel("A1!");
             Waiter_s_View.Show();
 
             //TableA1.UpdateTextbox("Ready");
-            // TableA1.Show();
+            //TableA1.Show();
 
         }
-        public void UpdateTextbox(string newText)
+
+
+        public void UpdateTextbox(string newText) // Update Textbox 1
         {
             textBox7.Text = newText;
         }
+
+        public void UpdateTextbox2(string newText) // Update Textbox 2
+        {
+            textBox11.Text = newText;
+        }
+
+        public void UpdateTextbox3(string newText) // Update Textbox 3
+        {
+            textBox15.Text = newText;
+        }
+
         private void label4_Click(object sender, EventArgs e)
         {
 

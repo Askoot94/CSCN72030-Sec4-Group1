@@ -12,10 +12,50 @@ namespace _Project_III_GUI
 {
     public partial class TableC1ChefView : Form
     {
-        Order tableOrder = new Order("TableC1");
-        public TableC1ChefView()
+        public string Table { get; set; }
+        public TableC1ChefView(string filename)
         {
             InitializeComponent();
+            guna2CircleButton1.Click += guna2CircleButton1_Click;
+            Table = filename;
+            Order file = new Order(filename);
+            if (file.GetNumberofDishes() == 1)
+            {
+                string buffer;
+                buffer = file.GetDishQuantity(0).ToString();
+                textBox4.Text = buffer;
+                textBox5.Text = file.GetDishName(0);
+            }
+            else if (file.GetNumberofDishes() == 2)
+            {
+                string buffer;
+                buffer = file.GetDishQuantity(0).ToString();
+                textBox4.Text = buffer;
+                textBox5.Text = file.GetDishName(0);
+
+                buffer = file.GetDishQuantity(1).ToString();
+                textBox8.Text = buffer;
+                textBox9.Text = file.GetDishName(1);
+            }
+            else if (file.GetNumberofDishes() == 3)
+            {
+                string buffer;
+                buffer = file.GetDishQuantity(0).ToString();
+                textBox4.Text = buffer;
+                textBox5.Text = file.GetDishName(0);
+
+                buffer = file.GetDishQuantity(1).ToString();
+                textBox8.Text = buffer;
+                textBox9.Text = file.GetDishName(1);
+
+                buffer = file.GetDishQuantity(2).ToString();
+                textBox12.Text = buffer;
+                textBox13.Text = file.GetDishName(2);
+            }
+            else
+            {
+                return;
+            }
         }
 
         private void guna2Button2_Click(object sender, EventArgs e) // back
@@ -35,6 +75,45 @@ namespace _Project_III_GUI
                 Home.Show();
                 Visible = false;
             }
+        }
+
+
+        public void UpdateTextbox(string newText) // Update Textbox 1
+        {
+            textBox7.Text = newText;
+        }
+
+        public void UpdateTextbox2(string newText) // Update Textbox 2
+        {
+            textBox11.Text = newText;
+        }
+
+        public void UpdateTextbox3(string newText) // Update Textbox 3
+        {
+            textBox15.Text = newText;
+        }
+
+        private Waiter_s_View Waiter_s_View = new Waiter_s_View();
+
+        private void guna2CircleButton2_Click(object sender, EventArgs e)
+        {
+            textBox11.Text = "Ready";
+            Waiter_s_View.UpdateLabelC1("C1!");
+            Waiter_s_View.Show();
+        }
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e)
+        {
+            textBox7.Text = "Ready";
+            Waiter_s_View.UpdateLabelC1("C1!");
+            Waiter_s_View.Show();
+        }
+
+        private void guna2CircleButton3_Click(object sender, EventArgs e)
+        {
+            textBox15.Text = "Ready";
+            Waiter_s_View.UpdateLabelC1("C1!");
+            Waiter_s_View.Show();
         }
     }
 }

@@ -12,10 +12,37 @@ namespace _Project_III_GUI
 {
     public partial class TableA5 : Form
     {
-        Order tableOrder = new Order("TableA5");
-        public TableA5()
+        public string filename { get; set; }
+        public TableA5(string Table)
         {
             InitializeComponent();
+            filename = Table;
+
+        }
+
+        private void TableA5_Load(object sender, EventArgs e)
+        {
+            Order file = new Order(filename);
+            string buffer;
+            if (file.GetNumberofDishes() >= 1)
+            {
+                buffer = file.GetDishQuantity(0).ToString();
+                textBox4.Text = buffer;
+                textBox5.Text = file.GetDishName(0);
+            }
+            if (file.GetNumberofDishes() >= 2)
+            {
+                buffer = file.GetDishQuantity(1).ToString();
+                textBox8.Text = buffer;
+                textBox9.Text = file.GetDishName(1);
+            }
+            if (file.GetNumberofDishes() >= 3)
+            {
+                buffer = file.GetDishQuantity(2).ToString();
+                textBox12.Text = buffer;
+                textBox13.Text = file.GetDishName(2);
+            }
+
         }
 
         private void guna2Button2_Click(object sender, EventArgs e) // back
@@ -35,6 +62,40 @@ namespace _Project_III_GUI
                 Home.Show();
                 Visible = false;
             }
+        }
+
+        private TableA5ChefView TableA5ChefView = new TableA5ChefView("Table A5");
+
+
+        //private Waiter_s_View Waiter_s_View = new Waiter_s_View();
+        private Chef_s_View Chef_s_View = new Chef_s_View();
+        private void guna2CircleButton2_Click(object sender, EventArgs e) // Served button 2
+        {
+            textBox11.Text = ("Served");
+            Chef_s_View.UpdateLabelA5("A5!");
+            Chef_s_View.Show();
+            TableA5ChefView.UpdateTextbox2("Served");
+            TableA5ChefView.Show();
+        }
+
+        private void guna2CircleButton1_Click(object sender, EventArgs e) // Served button 1
+        {
+            textBox7.Text = ("Served");
+            Chef_s_View.UpdateLabelA5("A5!");
+            Chef_s_View.Show();
+
+            TableA5ChefView.UpdateTextbox("Served");
+            TableA5ChefView.Show();
+        }
+
+        private void guna2CircleButton3_Click(object sender, EventArgs e) // Served button 3
+        {
+            textBox15.Text = ("Served");
+            Chef_s_View.UpdateLabelA5("A5!");
+            Chef_s_View.Show();
+
+            TableA5ChefView.UpdateTextbox3("Served");
+            TableA5ChefView.Show();
         }
     }
 }
